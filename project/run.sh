@@ -1,3 +1,4 @@
+bash ../files/get_in_list.sh
 rm -r ./build
 mkdir build
 cd build

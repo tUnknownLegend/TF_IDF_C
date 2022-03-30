@@ -1,0 +1,1 @@
+ls *.txt > list_of_files.lll
