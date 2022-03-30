@@ -179,6 +179,33 @@ ex.c.s:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/ex.c.s
 .PHONY : ex.c.s
 
+get_metr.o: get_metr.c.o
+
+.PHONY : get_metr.o
+
+# target to build an object file
+get_metr.c.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_metr.c.o
+.PHONY : get_metr.c.o
+
+get_metr.i: get_metr.c.i
+
+.PHONY : get_metr.i
+
+# target to preprocess a source file
+get_metr.c.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_metr.c.i
+.PHONY : get_metr.c.i
+
+get_metr.s: get_metr.c.s
+
+.PHONY : get_metr.s
+
+# target to generate assembly for a file
+get_metr.c.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_metr.c.s
+.PHONY : get_metr.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +221,9 @@ help:
 	@echo "... ex.o"
 	@echo "... ex.i"
 	@echo "... ex.s"
+	@echo "... get_metr.o"
+	@echo "... get_metr.i"
+	@echo "... get_metr.s"
 .PHONY : help
 
 

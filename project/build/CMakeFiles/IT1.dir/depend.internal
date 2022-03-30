@@ -3,4 +3,7 @@
 
 CMakeFiles/IT1.dir/main.c.o
  ../include/calc_hash.h
+ ../include/def.h
+ ../include/get_metr.h
+ ../include/struct.h
  /home/aint/park/c1/C2/project/main.c

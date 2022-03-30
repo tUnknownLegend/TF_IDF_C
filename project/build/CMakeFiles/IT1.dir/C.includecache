@@ -8,9 +8,29 @@
 
 ../include/calc_hash.h
 
+../include/def.h
+
+../include/get_metr.h
+./struct.h
+../include/struct.h
+stdio.h
+-
+
+../include/struct.h
+stdbool.h
+-
+stddef.h
+-
+
 /home/aint/park/c1/C2/project/main.c
 calc_hash.h
 /home/aint/park/c1/C2/project/calc_hash.h
+struct.h
+/home/aint/park/c1/C2/project/struct.h
+def.h
+/home/aint/park/c1/C2/project/def.h
+get_metr.h
+/home/aint/park/c1/C2/project/get_metr.h
 stdio.h
 -
 string.h
@@ -18,5 +38,9 @@ string.h
 stdlib.h
 -
 ctype.h
+-
+stdbool.h
+-
+errno.h
 -
 
