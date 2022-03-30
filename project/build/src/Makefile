@@ -125,6 +125,33 @@ IT1_SRC/fast:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/build
 .PHONY : IT1_SRC/fast
 
+calc_hash.o: calc_hash.c.o
+
+.PHONY : calc_hash.o
+
+# target to build an object file
+calc_hash.c.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o
+.PHONY : calc_hash.c.o
+
+calc_hash.i: calc_hash.c.i
+
+.PHONY : calc_hash.i
+
+# target to preprocess a source file
+calc_hash.c.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/calc_hash.c.i
+.PHONY : calc_hash.c.i
+
+calc_hash.s: calc_hash.c.s
+
+.PHONY : calc_hash.s
+
+# target to generate assembly for a file
+calc_hash.c.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/calc_hash.c.s
+.PHONY : calc_hash.c.s
+
 ex.o: ex.c.o
 
 .PHONY : ex.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... IT1_SRC"
+	@echo "... calc_hash.o"
+	@echo "... calc_hash.i"
+	@echo "... calc_hash.s"
 	@echo "... ex.o"
 	@echo "... ex.i"
 	@echo "... ex.s"

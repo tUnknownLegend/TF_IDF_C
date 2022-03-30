@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../include/ex.h
-stdlib.h
--
-stdio.h
--
+../include/calc_hash.h
 
 /home/aint/park/c1/C2/project/main.c
-ex.h
-/home/aint/park/c1/C2/project/ex.h
+calc_hash.h
+/home/aint/park/c1/C2/project/calc_hash.h
 stdio.h
 -
 string.h
 -
 stdlib.h
+-
+ctype.h
 -
 

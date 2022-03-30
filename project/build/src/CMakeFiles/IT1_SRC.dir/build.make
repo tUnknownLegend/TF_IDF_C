@@ -57,9 +57,22 @@ include src/CMakeFiles/IT1_SRC.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/IT1_SRC.dir/flags.make
 
+src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
+src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o: ../src/calc_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o"
+	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/calc_hash.c.o   -c /home/aint/park/c1/C2/project/src/calc_hash.c
+
+src/CMakeFiles/IT1_SRC.dir/calc_hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IT1_SRC.dir/calc_hash.c.i"
+	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aint/park/c1/C2/project/src/calc_hash.c > CMakeFiles/IT1_SRC.dir/calc_hash.c.i
+
+src/CMakeFiles/IT1_SRC.dir/calc_hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IT1_SRC.dir/calc_hash.c.s"
+	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aint/park/c1/C2/project/src/calc_hash.c -o CMakeFiles/IT1_SRC.dir/calc_hash.c.s
+
 src/CMakeFiles/IT1_SRC.dir/ex.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
 src/CMakeFiles/IT1_SRC.dir/ex.c.o: ../src/ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/IT1_SRC.dir/ex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/IT1_SRC.dir/ex.c.o"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/ex.c.o   -c /home/aint/park/c1/C2/project/src/ex.c
 
 src/CMakeFiles/IT1_SRC.dir/ex.c.i: cmake_force
@@ -72,15 +85,17 @@ src/CMakeFiles/IT1_SRC.dir/ex.c.s: cmake_force
 
 # Object files for target IT1_SRC
 IT1_SRC_OBJECTS = \
+"CMakeFiles/IT1_SRC.dir/calc_hash.c.o" \
 "CMakeFiles/IT1_SRC.dir/ex.c.o"
 
 # External object files for target IT1_SRC
 IT1_SRC_EXTERNAL_OBJECTS =
 
+src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/ex.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/build.make
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libIT1_SRC.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libIT1_SRC.a"
 	cd /home/aint/park/c1/C2/project/build/src && $(CMAKE_COMMAND) -P CMakeFiles/IT1_SRC.dir/cmake_clean_target.cmake
 	cd /home/aint/park/c1/C2/project/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IT1_SRC.dir/link.txt --verbose=$(VERBOSE)
 
