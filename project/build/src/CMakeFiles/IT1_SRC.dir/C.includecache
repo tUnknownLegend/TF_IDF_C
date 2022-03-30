@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aint/park/c1/C2/project/include/ex.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/aint/park/c1/C2/project/src/ex.c
+../include/ex.h
+/home/aint/park/c1/C2/project/include/ex.h
+stdlib.h
+-
+time.h
+-
+

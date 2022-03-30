@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aint/park/c1/C2/project/tests/test1.cpp
+gtest/gtest.h
+-
+

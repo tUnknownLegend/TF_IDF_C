@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIT1_SRC.a  CMakeFiles/IT1_SRC.dir/ex.c.o
+/usr/bin/ranlib libIT1_SRC.a
