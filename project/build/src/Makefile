@@ -233,6 +233,60 @@ get_metr.c.s:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_metr.c.s
 .PHONY : get_metr.c.s
 
+get_tf_idf.o: get_tf_idf.c.o
+
+.PHONY : get_tf_idf.o
+
+# target to build an object file
+get_tf_idf.c.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o
+.PHONY : get_tf_idf.c.o
+
+get_tf_idf.i: get_tf_idf.c.i
+
+.PHONY : get_tf_idf.i
+
+# target to preprocess a source file
+get_tf_idf.c.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.i
+.PHONY : get_tf_idf.c.i
+
+get_tf_idf.s: get_tf_idf.c.s
+
+.PHONY : get_tf_idf.s
+
+# target to generate assembly for a file
+get_tf_idf.c.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.s
+.PHONY : get_tf_idf.c.s
+
+tf_idf_top_5.o: tf_idf_top_5.c.o
+
+.PHONY : tf_idf_top_5.o
+
+# target to build an object file
+tf_idf_top_5.c.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o
+.PHONY : tf_idf_top_5.c.o
+
+tf_idf_top_5.i: tf_idf_top_5.c.i
+
+.PHONY : tf_idf_top_5.i
+
+# target to preprocess a source file
+tf_idf_top_5.c.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.i
+.PHONY : tf_idf_top_5.c.i
+
+tf_idf_top_5.s: tf_idf_top_5.c.s
+
+.PHONY : tf_idf_top_5.s
+
+# target to generate assembly for a file
+tf_idf_top_5.c.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.s
+.PHONY : tf_idf_top_5.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +308,12 @@ help:
 	@echo "... get_metr.o"
 	@echo "... get_metr.i"
 	@echo "... get_metr.s"
+	@echo "... get_tf_idf.o"
+	@echo "... get_tf_idf.i"
+	@echo "... get_tf_idf.s"
+	@echo "... tf_idf_top_5.o"
+	@echo "... tf_idf_top_5.i"
+	@echo "... tf_idf_top_5.s"
 .PHONY : help
 
 

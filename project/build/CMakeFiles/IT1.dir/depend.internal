@@ -5,5 +5,7 @@ CMakeFiles/IT1.dir/main.c.o
  ../include/def.h
  ../include/get_idf.h
  ../include/get_metr.h
+ ../include/get_tf_idf.h
  ../include/struct.h
+ ../include/tf_idf_top_5.h
  /home/aint/park/c1/C2/project/main.c

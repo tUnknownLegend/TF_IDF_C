@@ -1,5 +1,15 @@
+#!/bin/bash
+cur_dir=$(pwd)
 cat "" > ./logs/get_metr.log
-bash ../files/get_in_list.sh
+cat "" > ./logs/get_tf_idf.log
+cat "" > ./logs/get_idf.log
+cd ../
+rm -r ./files_report
+mkdir files_report
+cd ./files
+chmod a+x ./get_in_list.sh
+bash ./get_in_list.sh
+cd $cur_dir
 rm -r ./build
 mkdir build
 cd build

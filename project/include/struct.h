@@ -7,6 +7,7 @@ struct tf {
 	unsigned char* str; // fix? str[SIZE_OF_WORD]
 	double tf;
 	unsigned short amt;
+	double tf_idf;
 };
 
 typedef struct tf my_tf;

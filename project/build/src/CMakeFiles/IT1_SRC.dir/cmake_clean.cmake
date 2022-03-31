@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/IT1_SRC.dir/ex.c.o"
   "CMakeFiles/IT1_SRC.dir/get_idf.c.o"
   "CMakeFiles/IT1_SRC.dir/get_metr.c.o"
+  "CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o"
+  "CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o"
   "libIT1_SRC.a"
   "libIT1_SRC.pdb"
 )

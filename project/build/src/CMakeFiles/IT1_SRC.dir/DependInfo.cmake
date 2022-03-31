@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/aint/park/c1/C2/project/src/ex.c" "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/ex.c.o"
   "/home/aint/park/c1/C2/project/src/get_idf.c" "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/get_idf.c.o"
   "/home/aint/park/c1/C2/project/src/get_metr.c" "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/get_metr.c.o"
+  "/home/aint/park/c1/C2/project/src/get_tf_idf.c" "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o"
+  "/home/aint/park/c1/C2/project/src/tf_idf_top_5.c" "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

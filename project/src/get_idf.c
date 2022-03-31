@@ -7,7 +7,7 @@
 
 
 int get_idf(my_idf* all_idf, bool* check_idf, int* arr_ind, int const amt_of_files) {
-	//  FILE* out_file = fopen("../logs/get_idf.log", "a+");
+	  FILE* out_file = fopen("../logs/get_idf.log", "a+");
 	//  FILE* err_file = stderr;
 
 	unsigned short all_amt_idf = 0;
@@ -21,10 +21,12 @@ int get_idf(my_idf* all_idf, bool* check_idf, int* arr_ind, int const amt_of_fil
 			}
 		if (check_idf[i]) {
 			all_idf[i].idf = log(((double)amt_of_files / (double)all_amt_idf));
-			//fprintf(out_file, "%f; %d\n", all_idf[i].idf, all_amt_idf);
+			fprintf(out_file, "%f; %d\n", all_idf[i].idf, all_amt_idf);
 		}
 		all_amt_idf = 0;
 	}
+
+	fclose(out_file);
 
 	return 1;
 }

@@ -1,3 +1,4 @@
+#!/bin/bash
 file_name=$"list_of_files.lll"
 #prepand_path=$"../../files/"
 ls *.txt > $file_name

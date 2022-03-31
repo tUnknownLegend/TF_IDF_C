@@ -4,6 +4,8 @@
 CMakeFiles/IT1.dir/main.c.o: ../include/def.h
 CMakeFiles/IT1.dir/main.c.o: ../include/get_idf.h
 CMakeFiles/IT1.dir/main.c.o: ../include/get_metr.h
+CMakeFiles/IT1.dir/main.c.o: ../include/get_tf_idf.h
 CMakeFiles/IT1.dir/main.c.o: ../include/struct.h
+CMakeFiles/IT1.dir/main.c.o: ../include/tf_idf_top_5.h
 CMakeFiles/IT1.dir/main.c.o: ../main.c
 

@@ -16,3 +16,11 @@ src/CMakeFiles/IT1_SRC.dir/get_metr.c.o: ../include/def.h
 src/CMakeFiles/IT1_SRC.dir/get_metr.c.o: ../include/struct.h
 src/CMakeFiles/IT1_SRC.dir/get_metr.c.o: ../src/get_metr.c
 
+src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o: ../include/def.h
+src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o: ../include/struct.h
+src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o: ../src/get_tf_idf.c
+
+src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o: ../include/def.h
+src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o: ../include/struct.h
+src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o: ../src/tf_idf_top_5.c
+
