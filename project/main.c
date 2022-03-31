@@ -1,4 +1,3 @@
-#include "calc_hash.h"
 #include "struct.h"
 #include "def.h"
 #include "get_metr.h"
@@ -34,7 +33,7 @@ typedef struct idf my_idf;
 int main() {
 	bool err = false;  //  error flag
 	char buffer[SIZE_OF_WORD] = "-"; // fix for large words is needed
-	//FILE* const out_file = stdout;
+	FILE* const out_file = stdout;
 	FILE* const err_file = stderr;
 	FILE* const in_file_list = fopen(FILE_IN_LIST, "r");
 	if (in_file_list == NULL) {
@@ -100,7 +99,7 @@ int main() {
 	if (err == false) {
 		FILE* file_for_get = NULL;
 		//  get names of files
-		for (int i = 0; i < amt_of_files; ++i) {
+		for (int i = 0; i < amt_of_files; ++i) {  // amt_of_files
 			if (fgets(buffer, SIZE_OF_WORD - 1, in_file_list) != NULL) {
 				strcat(temp_buf, PATH_TO_FILES);
 				strcat(temp_buf, buffer);
@@ -111,7 +110,7 @@ int main() {
 						fprintf(err_file, "%s; fopen // file_for_get\n", strerror(errno));
 						err = true;
 				} else {
-					//get_metr(tf_rec[i], all_idf, file_for_get, i);
+					get_metr(tf_rec[i], all_idf, file_for_get, i);
 
 					//  close
 					if (fclose(file_for_get) != 0) {
@@ -129,6 +128,29 @@ int main() {
 		}
 	}
 	free(temp_buf);
+
+	/* idf */
+	unsigned short all_amt_idf = 0;
+	bool check[HASH_RANGE] = {false};
+	int arr_ind[HASH_RANGE] = {0};
+	for (int i = 0; i < HASH_RANGE; ++i) {
+		for (int j = 0; j < amt_of_files; ++j)
+			if (all_idf[i].amt[j]) {
+				++all_amt_idf;
+				check[i] = true;
+				arr_ind[i] = j;
+			}
+		all_idf[i].idf = (double)amt_of_files / (double)all_amt_idf;
+
+		all_amt_idf = 0;
+	}
+
+	for (int i = 0; i < HASH_RANGE; ++i) {
+		if (check[i] == true)
+    		fprintf(out_file, "word: %15s; TF: %f; IDF: %f; TF-IDF: %f\n", tf_rec[arr_ind[i]][i].str, tf_rec[arr_ind[i]][i].tf, all_idf[i].idf, (double)tf_rec[arr_ind[i]][i].tf / (double)all_idf[i].idf);			
+	}
+
+	/* end idf */
 
 	//  close
 	if (fclose(in_file_list) != 0) {

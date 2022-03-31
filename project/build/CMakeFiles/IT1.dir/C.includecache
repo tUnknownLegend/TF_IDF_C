@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/calc_hash.h
-
 ../include/def.h
 
 ../include/get_metr.h
-./struct.h
-../include/struct.h
 stdio.h
 -
 
@@ -23,8 +19,6 @@ stddef.h
 -
 
 /home/aint/park/c1/C2/project/main.c
-calc_hash.h
-/home/aint/park/c1/C2/project/calc_hash.h
 struct.h
 /home/aint/park/c1/C2/project/struct.h
 def.h

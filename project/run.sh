@@ -1,3 +1,4 @@
+cat "" > ./logs/get_metr.log
 bash ../files/get_in_list.sh
 rm -r ./build
 mkdir build
