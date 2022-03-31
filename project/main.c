@@ -126,7 +126,7 @@ int main() {
 
 	/* end tf */
 
-	/* idf */
+	/* idf + tf-idf */
 
 	if (err == false) {
 		bool check_idf[HASH_RANGE] = {false};
@@ -157,7 +157,7 @@ int main() {
 				tf_idf_top_5(tf_rec[i], top_5_ind);
 				fprintf(file_out, "TOP 5:\n");
 
-				//  check if there non zeros TF-IDFs
+				//  check if there at least then 5 TF-IDFs
 				if (top_5_ind[0] >= 0)
 					for (int k = 0; k < 5; ++k) {
 						//printf("%d\n", top_5_ind[k]);
