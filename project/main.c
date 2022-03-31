@@ -1,6 +1,7 @@
 #include "struct.h"
 #include "def.h"
 #include "get_metr.h"
+#include "get_idf.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -129,34 +130,35 @@ int main() {
 	}
 	free(temp_buf);
 
-	/* idf */
-	unsigned short all_amt_idf = 0;
-	bool check[HASH_RANGE] = {false};
-	int arr_ind[HASH_RANGE] = {0};
-	for (int i = 0; i < HASH_RANGE; ++i) {
-		for (int j = 0; j < amt_of_files; ++j)
-			if (all_idf[i].amt[j]) {
-				++all_amt_idf;
-				check[i] = true;
-				arr_ind[i] = j;
-			}
-		all_idf[i].idf = (double)amt_of_files / (double)all_amt_idf;
-
-		all_amt_idf = 0;
-	}
-
-	for (int i = 0; i < HASH_RANGE; ++i) {
-		if (check[i] == true)
-    		fprintf(out_file, "word: %15s; TF: %f; IDF: %f; TF-IDF: %f\n", tf_rec[arr_ind[i]][i].str, tf_rec[arr_ind[i]][i].tf, all_idf[i].idf, (double)tf_rec[arr_ind[i]][i].tf / (double)all_idf[i].idf);			
-	}
-
-	/* end idf */
-
 	//  close
 	if (fclose(in_file_list) != 0) {
 		fprintf(err_file, "%s; fgets // in_file_list\n", strerror(errno));
 		err = true;		
+	}	
+
+	/* idf */
+
+	//bool check[HASH_RANGE] = {false};
+	//bool* check_idf = calloc((HASH_RANGE), sizeof(bool));
+	/*if (check_idf == NULL){
+		fprintf(err_file, "%s; callocs // check_idf\n", strerror(errno));
+		err = true;
+	}*/
+
+	if (err == false) {
+		bool check_idf[HASH_RANGE] = {false};
+		int arr_ind[HASH_RANGE] = {0};
+
+		get_idf(all_idf, check_idf, arr_ind, amt_of_files);
+
+		for (int i = 0; i < HASH_RANGE; ++i) {
+			if (check_idf[i]) {
+	    		fprintf(out_file, "word: %15s; TF: %f; IDF: %f; TF-IDF: %f\n", tf_rec[arr_ind[i]][i].str, tf_rec[arr_ind[i]][i].tf, all_idf[i].idf, tf_rec[arr_ind[i]][i].tf * all_idf[i].idf);			
+			}
+		}	
 	}
+
+	/* end idf */
 
 	//  free
 	for (int i = 0; i < HASH_RANGE; ++i)

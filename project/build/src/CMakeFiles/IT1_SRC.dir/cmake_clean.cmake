@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IT1_SRC.dir/calc_hash.c.o"
   "CMakeFiles/IT1_SRC.dir/ex.c.o"
+  "CMakeFiles/IT1_SRC.dir/get_idf.c.o"
   "CMakeFiles/IT1_SRC.dir/get_metr.c.o"
   "libIT1_SRC.a"
   "libIT1_SRC.pdb"

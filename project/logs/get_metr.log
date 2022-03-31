@@ -4,6 +4,7 @@ ______________________________
 word:          author; amount:   1; TF: 0.009091
 word:         english; amount:   1; TF: 0.009091
 word:        included; amount:   1; TF: 0.009091
+word:            html; amount:   1; TF: 0.009091
 word:            with; amount:   2; TF: 0.018182
 word:            july; amount:   2; TF: 0.018182
 word:            june; amount:   1; TF: 0.009091
@@ -12,37 +13,35 @@ word:            copy; amount:   1; TF: 0.009091
 word:            cost; amount:   1; TF: 0.009091
 word:            away; amount:   1; TF: 0.009091
 word:            give; amount:   1; TF: 0.009091
-word:           sTART; amount:   1; TF: 0.009091
-word:           eBOOK; amount:   1; TF: 0.009091
 word:           under; amount:   1; TF: 0.009091
-word:       gutenberg; amount:   3; TF: 0.027273
+word:       gutenberg; amount:   4; TF: 0.036364
 word:          haines; amount:   1; TF: 0.009091
 word:    restrictions; amount:   1; TF: 0.009091
 word:      whatsoever; amount:   1; TF: 0.009091
 word:          almost; amount:   1; TF: 0.009091
-word:            this; amount:   4; TF: 0.036364
+word:           start; amount:   1; TF: 0.009091
+word:            this; amount:   5; TF: 0.045455
+word:           ebook; amount:   5; TF: 0.045455
 word:          online; amount:   1; TF: 0.009091
 word:        anywhere; amount:   1; TF: 0.009091
 word:             and; amount:   1; TF: 0.009091
-word:            gray; amount:   2; TF: 0.018182
+word:            gray; amount:   3; TF: 0.027273
 word:              al; amount:   1; TF: 0.009091
 word:              at; amount:   2; TF: 0.018182
 word:              by; amount:   3; TF: 0.027273
 word:        produced; amount:   1; TF: 0.009091
 word:              is; amount:   1; TF: 0.009091
 word:              it; amount:   3; TF: 0.027273
-word:              oF; amount:   2; TF: 0.018182
 word:              no; amount:   2; TF: 0.018182
-word:              of; amount:   5; TF: 0.045455
+word:              of; amount:   7; TF: 0.063636
 word:              on; amount:   2; TF: 0.018182
 word:              or; amount:   2; TF: 0.018182
 word:              re; amount:   1; TF: 0.009091
-word:            hTML; amount:   1; TF: 0.009091
 word:           oscar; amount:   2; TF: 0.018182
 word:            date; amount:   1; TF: 0.009091
 word:             for; amount:   1; TF: 0.009091
-word:         project; amount:   2; TF: 0.018182
-word:         picture; amount:   2; TF: 0.018182
+word:         project; amount:   3; TF: 0.027273
+word:         picture; amount:   3; TF: 0.027273
 word:           terms; amount:   1; TF: 0.009091
 word:        language; amount:   1; TF: 0.009091
 word:         version; amount:   1; TF: 0.009091
@@ -50,12 +49,8 @@ word:         updated; amount:   2; TF: 0.018182
 word:             may; amount:   1; TF: 0.009091
 word:             net; amount:   1; TF: 0.009091
 word:            boss; amount:   1; TF: 0.009091
-word:          dORIAN; amount:   1; TF: 0.009091
-word:         pROJECT; amount:   1; TF: 0.009091
-word:         pICTURE; amount:   1; TF: 0.009091
-word:             tHE; amount:   1; TF: 0.009091
 word:            file; amount:   2; TF: 0.018182
-word:             the; amount:   6; TF: 0.054545
+word:             the; amount:   7; TF: 0.063636
 word:             use; amount:   2; TF: 0.018182
 word:           title; amount:   4; TF: 0.036364
 word:             www; amount:   1; TF: 0.009091
@@ -63,13 +58,9 @@ word:          judith; amount:   1; TF: 0.009091
 word:         release; amount:   1; TF: 0.009091
 word:             you; amount:   1; TF: 0.009091
 word:         license; amount:   1; TF: 0.009091
-word:          dorian; amount:   2; TF: 0.018182
-word:            tHIS; amount:   1; TF: 0.009091
-word:           eBook; amount:   4; TF: 0.036364
-word:            gRAY; amount:   1; TF: 0.009091
+word:          dorian; amount:   3; TF: 0.027273
 word:            last; amount:   2; TF: 0.018182
 word:           wilde; amount:   2; TF: 0.018182
-word:       gUTENBERG; amount:   1; TF: 0.009091
 -------------------------------
 amt of words: 110
 ______________________________
@@ -101,6 +92,7 @@ word:          wealth; amount:   6; TF: 0.000072
 word:          jerkin; amount:   2; TF: 0.000024
 word:          refuge; amount:   1; TF: 0.000012
 word:          manner; amount:  21; TF: 0.000252
+word:          strict; amount:   1; TF: 0.000012
 word:           mimic; amount:   3; TF: 0.000036
 word:          theory; amount:   8; TF: 0.000096
 word:          marbre; amount:   2; TF: 0.000024
@@ -121,7 +113,7 @@ word:          custom; amount:   3; TF: 0.000036
 word:           souls; amount:   2; TF: 0.000024
 word:         homburg; amount:   1; TF: 0.000012
 word:        streamed; amount:   2; TF: 0.000024
-word:          refund; amount:   9; TF: 0.000108
+word:          refund; amount:  10; TF: 0.000120
 word:           sound; amount:  13; TF: 0.000156
 word:        research; amount:   2; TF: 0.000024
 word:         enraged; amount:   1; TF: 0.000012
@@ -168,7 +160,6 @@ word:          skeins; amount:   1; TF: 0.000012
 word:    civilization; amount:   1; TF: 0.000012
 word:           wiped; amount:   3; TF: 0.000036
 word:          snowed; amount:   1; TF: 0.000012
-word:      dISCLAIMER; amount:   1; TF: 0.000012
 word:           cross; amount:   1; TF: 0.000012
 word:          burdon; amount:   2; TF: 0.000024
 word:     interpreted; amount:   1; TF: 0.000012
@@ -266,9 +257,9 @@ word:        grumbled; amount:   2; TF: 0.000024
 word:           slain; amount:   2; TF: 0.000024
 word:           patti; amount:   4; TF: 0.000048
 word:           yield; amount:   4; TF: 0.000048
-word:         lICENSE; amount:   3; TF: 0.000036
+word:          welled; amount:   1; TF: 0.000012
 word:          quiver; amount:   2; TF: 0.000024
-word:       donations; amount:  14; TF: 0.000168
+word:       donations; amount:  15; TF: 0.000180
 word:           organ; amount:   1; TF: 0.000012
 word:          united; amount:  10; TF: 0.000120
 word:         eagerly; amount:   1; TF: 0.000012
@@ -340,7 +331,6 @@ word:           gamme; amount:   1; TF: 0.000012
 word:      iridescent; amount:   2; TF: 0.000024
 word:        dramatic; amount:   4; TF: 0.000048
 word:          lesson; amount:   3; TF: 0.000036
-word:         eXPRESS; amount:   1; TF: 0.000012
 word:      invariably; amount:   2; TF: 0.000024
 word:          ethics; amount:   1; TF: 0.000012
 word:      frontleted; amount:   1; TF: 0.000012
@@ -357,12 +347,11 @@ word:        provoked; amount:   1; TF: 0.000012
 word:     incoherence; amount:   1; TF: 0.000012
 word:         parched; amount:   3; TF: 0.000036
 word:     incarnation; amount:   1; TF: 0.000012
+word:            html; amount:   2; TF: 0.000024
 word:           sadly; amount:   5; TF: 0.000060
 word:       flattered; amount:   1; TF: 0.000012
 word:     stateliness; amount:   1; TF: 0.000012
 word:           rules; amount:   4; TF: 0.000048
-word:           oTHER; amount:   1; TF: 0.000012
-word:          dIRECT; amount:   1; TF: 0.000012
 word:        complete; amount:   4; TF: 0.000048
 word:          sleeve; amount:   1; TF: 0.000012
 word:       lohengrin; amount:   2; TF: 0.000024
@@ -437,13 +426,14 @@ word:            john; amount:   1; TF: 0.000012
 word:            link; amount:   1; TF: 0.000012
 word:          longed; amount:   2; TF: 0.000024
 word:          ardour; amount:   2; TF: 0.000024
-word:         implied; amount:   1; TF: 0.000012
+word:         implied; amount:   2; TF: 0.000024
 word:          longer; amount:   8; TF: 0.000096
 word:          gaiety; amount:   1; TF: 0.000012
 word:     noiselessly; amount:   1; TF: 0.000012
 word:            join; amount:   4; TF: 0.000048
 word:           sugar; amount:   1; TF: 0.000012
 word:         webster; amount:   1; TF: 0.000012
+word:        warranty; amount:   2; TF: 0.000024
 word:         certain; amount:  24; TF: 0.000287
 word:            lips; amount:  57; TF: 0.000683
 word:         pouring; amount:   2; TF: 0.000024
@@ -524,7 +514,6 @@ word:           shook; amount:  29; TF: 0.000347
 word:       wednesday; amount:   1; TF: 0.000012
 word:           newby; amount:   6; TF: 0.000072
 word:          rondes; amount:   1; TF: 0.000012
-word:           aSCII; amount:   2; TF: 0.000024
 word:        balasses; amount:   1; TF: 0.000012
 word:          comply; amount:   6; TF: 0.000072
 word:     conjectures; amount:   1; TF: 0.000012
@@ -535,7 +524,6 @@ word:         declare; amount:   1; TF: 0.000012
 word:           short; amount:   8; TF: 0.000096
 word:          shirts; amount:   1; TF: 0.000012
 word:          glazed; amount:   2; TF: 0.000024
-word:           tHOSE; amount:   1; TF: 0.000012
 word:          candle; amount:   4; TF: 0.000048
 word:      chequebook; amount:   1; TF: 0.000012
 word:          ruined; amount:   4; TF: 0.000048
@@ -549,7 +537,7 @@ word:         puritan; amount:   1; TF: 0.000012
 word:            stay; amount:  16; TF: 0.000192
 word:         soothed; amount:   1; TF: 0.000012
 word:          behind; amount:  36; TF: 0.000431
-word:         chapter; amount:   4; TF: 0.000048
+word:         chapter; amount:  24; TF: 0.000287
 word:           shown; amount:  11; TF: 0.000132
 word:           shows; amount:   3; TF: 0.000036
 word:           tubes; amount:   1; TF: 0.000012
@@ -582,10 +570,9 @@ word:           idyll; amount:   1; TF: 0.000012
 word:            also; amount:  21; TF: 0.000252
 word:          escape; amount:  11; TF: 0.000132
 word:       malatesta; amount:   1; TF: 0.000012
-word:          before; amount:  75; TF: 0.000898
+word:          before; amount:  76; TF: 0.000910
 word:          joined; amount:   1; TF: 0.000012
 word:          rather; amount:  47; TF: 0.000563
-word:           pGLAF; amount:   1; TF: 0.000012
 word:        dominant; amount:   4; TF: 0.000048
 word:        graceful; amount:   7; TF: 0.000084
 word:    disobedience; amount:   2; TF: 0.000024
@@ -643,7 +630,7 @@ word:           witty; amount:   1; TF: 0.000012
 word:            ease; amount:   3; TF: 0.000036
 word:       sacrament; amount:   1; TF: 0.000012
 word:            wild; amount:  28; TF: 0.000335
-word:            will; amount: 207; TF: 0.002479
+word:            will; amount: 208; TF: 0.002491
 word:            east; amount:   6; TF: 0.000072
 word:            easy; amount:   3; TF: 0.000036
 word:          hugged; amount:   1; TF: 0.000012
@@ -657,7 +644,7 @@ word:           reads; amount:   1; TF: 0.000012
 word:           enter; amount:   5; TF: 0.000060
 word:           ready; amount:  10; TF: 0.000120
 word:            nero; amount:   2; TF: 0.000024
-word:            such; amount:  82; TF: 0.000982
+word:            such; amount:  83; TF: 0.000994
 word:            suck; amount:   1; TF: 0.000012
 word:          casual; amount:   1; TF: 0.000012
 word:        uncomely; amount:   2; TF: 0.000024
@@ -673,7 +660,7 @@ word:            wish; amount:  43; TF: 0.000515
 word:   understanding; amount:   2; TF: 0.000024
 word:       mysteries; amount:   4; TF: 0.000048
 word:            news; amount:   3; TF: 0.000036
-word:            with; amount: 705; TF: 0.008443
+word:            with; amount: 706; TF: 0.008455
 word:          buried; amount:   7; TF: 0.000084
 word:   corroborative; amount:   1; TF: 0.000012
 word:          rimmed; amount:   1; TF: 0.000012
@@ -686,7 +673,6 @@ word:            suit; amount:   4; TF: 0.000048
 word:           devil; amount:   4; TF: 0.000048
 word:        attitude; amount:   1; TF: 0.000012
 word:        loosened; amount:   1; TF: 0.000012
-word:          lIABLE; amount:   1; TF: 0.000012
 word:          talked; amount:   8; TF: 0.000096
 word:     inhabitants; amount:   2; TF: 0.000024
 word:        suffered; amount:   7; TF: 0.000084
@@ -821,7 +807,7 @@ word:        continue; amount:   1; TF: 0.000012
 word:          rested; amount:   1; TF: 0.000012
 word:            page; amount:   8; TF: 0.000096
 word:          really; amount: 103; TF: 0.001234
-word:         limited; amount:   4; TF: 0.000048
+word:         limited; amount:   7; TF: 0.000084
 word:        omelette; amount:   1; TF: 0.000012
 word:          temple; amount:   1; TF: 0.000012
 word:        flawless; amount:   1; TF: 0.000012
@@ -849,7 +835,6 @@ word:           penny; amount:   1; TF: 0.000012
 word:        deadlier; amount:   1; TF: 0.000012
 word:        chiefest; amount:   1; TF: 0.000012
 word:        brantome; amount:   1; TF: 0.000012
-word:      wARRANTIES; amount:   2; TF: 0.000024
 word:         exhibit; amount:  10; TF: 0.000120
 word:          supped; amount:   1; TF: 0.000012
 word:            park; amount:  10; TF: 0.000120
@@ -906,7 +891,6 @@ word:        stirrups; amount:   1; TF: 0.000012
 word:          middle; amount:   7; TF: 0.000084
 word:           swell; amount:   1; TF: 0.000012
 word:         michael; amount:   2; TF: 0.000024
-word:       iNDEMNITY; amount:   1; TF: 0.000012
 word:           snaps; amount:   1; TF: 0.000012
 word:       glittered; amount:   1; TF: 0.000012
 word:          slaves; amount:   2; TF: 0.000024
@@ -967,7 +951,7 @@ word:          garnet; amount:   2; TF: 0.000024
 word:        maladies; amount:   3; TF: 0.000036
 word:     approvingly; amount:   1; TF: 0.000012
 word:         sardius; amount:   1; TF: 0.000012
-word:       agreement; amount:  17; TF: 0.000204
+word:       agreement; amount:  18; TF: 0.000216
 word:           heavy; amount:  27; TF: 0.000323
 word:          sought; amount:  14; TF: 0.000168
 word:         princes; amount:   1; TF: 0.000012
@@ -1000,7 +984,7 @@ word:       vengeance; amount:   2; TF: 0.000024
 word:         earthen; amount:   1; TF: 0.000012
 word:     corporation; amount:   1; TF: 0.000012
 word:       analysing; amount:   1; TF: 0.000012
-word:           other; amount:  85; TF: 0.001018
+word:           other; amount:  86; TF: 0.001030
 word:           adopt; amount:   1; TF: 0.000012
 word:          hunted; amount:   2; TF: 0.000024
 word:         awfully; amount:   8; TF: 0.000096
@@ -1025,7 +1009,6 @@ word:         artists; amount:   7; TF: 0.000084
 word:       selection; amount:   1; TF: 0.000012
 word:          marked; amount:   6; TF: 0.000072
 word:       slightest; amount:   3; TF: 0.000036
-word:        cONTRACT; amount:   1; TF: 0.000012
 word:          beaded; amount:   1; TF: 0.000012
 word:          market; amount:   1; TF: 0.000012
 word:         country; amount:  16; TF: 0.000192
@@ -1048,7 +1031,7 @@ word:          hardly; amount:  16; TF: 0.000192
 word:      straggling; amount:   1; TF: 0.000012
 word:          rubies; amount:   3; TF: 0.000036
 word:            load; amount:   2; TF: 0.000024
-word:       trademark; amount:  10; TF: 0.000120
+word:       trademark; amount:  11; TF: 0.000132
 word:            nigh; amount:   4; TF: 0.000048
 word:          pistol; amount:   1; TF: 0.000012
 word:          exists; amount:   1; TF: 0.000012
@@ -1071,7 +1054,7 @@ word:            nile; amount:   3; TF: 0.000036
 word:           gates; amount:   1; TF: 0.000012
 word:      excitement; amount:   3; TF: 0.000036
 word:      marguerite; amount:   2; TF: 0.000024
-word:      foundation; amount:  24; TF: 0.000287
+word:      foundation; amount:  25; TF: 0.000299
 word:            nine; amount:   8; TF: 0.000096
 word:        creating; amount:   4; TF: 0.000048
 word:            used; amount:  40; TF: 0.000479
@@ -1144,6 +1127,7 @@ word:           grape; amount:   1; TF: 0.000012
 word:            clad; amount:   1; TF: 0.000012
 word:   materialistic; amount:   1; TF: 0.000012
 word:            clay; amount:   3; TF: 0.000036
+word:           ascii; amount:   2; TF: 0.000024
 word:       centuries; amount:   1; TF: 0.000012
 word:         hanging; amount:   5; TF: 0.000060
 word:     excellently; amount:   1; TF: 0.000012
@@ -1156,7 +1140,7 @@ word:       unsullied; amount:   1; TF: 0.000012
 word:           grass; amount:   8; TF: 0.000096
 word:       contained; amount:   3; TF: 0.000036
 word:        surprise; amount:   5; TF: 0.000060
-word:           those; amount:  65; TF: 0.000778
+word:           those; amount:  66; TF: 0.000790
 word:        unhooked; amount:   1; TF: 0.000012
 word:          beware; amount:   1; TF: 0.000012
 word:    requirements; amount:   4; TF: 0.000048
@@ -1171,7 +1155,7 @@ word:         worship; amount:  12; TF: 0.000144
 word:        drowsily; amount:   1; TF: 0.000012
 word:       redressed; amount:   1; TF: 0.000012
 word:         shallow; amount:  16; TF: 0.000192
-word:          eBooks; amount:   9; TF: 0.000108
+word:         ribbons; amount:   2; TF: 0.000024
 word:        mohammed; amount:   1; TF: 0.000012
 word:        approval; amount:   2; TF: 0.000024
 word:         madness; amount:   9; TF: 0.000108
@@ -1179,7 +1163,6 @@ word:      remembered; amount:  21; TF: 0.000252
 word:          behold; amount:   1; TF: 0.000012
 word:      splendidly; amount:   1; TF: 0.000012
 word:         leagues; amount:   1; TF: 0.000012
-word:        pUNITIVE; amount:   1; TF: 0.000012
 word:       providing; amount:   4; TF: 0.000048
 word:      prolonging; amount:   1; TF: 0.000012
 word:           sybil; amount:   2; TF: 0.000024
@@ -1188,7 +1171,6 @@ word:          cupids; amount:   3; TF: 0.000036
 word:         evident; amount:   1; TF: 0.000012
 word:         waggons; amount:   1; TF: 0.000012
 word:      characters; amount:   2; TF: 0.000024
-word:      iNCIDENTAL; amount:   1; TF: 0.000012
 word:       handiwork; amount:   1; TF: 0.000012
 word:           salad; amount:   1; TF: 0.000012
 word:         laughed; amount:  41; TF: 0.000491
@@ -1197,7 +1179,7 @@ word:           gaunt; amount:   3; TF: 0.000036
 word:            arms; amount:  13; TF: 0.000156
 word:          tripos; amount:   1; TF: 0.000012
 word:          things; amount: 130; TF: 0.001557
-word:           pglaf; amount:   7; TF: 0.000084
+word:           pglaf; amount:   8; TF: 0.000096
 word:       vulgarity; amount:   3; TF: 0.000036
 word:            club; amount:  20; TF: 0.000240
 word:            clue; amount:   2; TF: 0.000024
@@ -1248,7 +1230,7 @@ word:           gauze; amount:   3; TF: 0.000036
 word:           salon; amount:   1; TF: 0.000012
 word:          dinner; amount:  20; TF: 0.000240
 word:       varnished; amount:   1; TF: 0.000012
-word:       including; amount:   9; TF: 0.000108
+word:       including; amount:  10; TF: 0.000120
 word:         grumble; amount:   1; TF: 0.000012
 word:       daughters; amount:   2; TF: 0.000024
 word:         include; amount:   9; TF: 0.000108
@@ -1274,7 +1256,6 @@ word:          pieces; amount:   3; TF: 0.000036
 word:            egos; amount:   1; TF: 0.000012
 word:          blazed; amount:   1; TF: 0.000012
 word:            gave; amount:  22; TF: 0.000263
-word:            hAVE; amount:   1; TF: 0.000012
 word:         painful; amount:   1; TF: 0.000012
 word:         vinegar; amount:   1; TF: 0.000012
 word:           perth; amount:   2; TF: 0.000024
@@ -1296,7 +1277,7 @@ word:         replied; amount:   7; TF: 0.000084
 word:      fluttering; amount:   1; TF: 0.000012
 word:            word; amount:  25; TF: 0.000299
 word:            wore; amount:   9; TF: 0.000108
-word:            work; amount:  90; TF: 0.001078
+word:            work; amount:  91; TF: 0.001090
 word:            worm; amount:   1; TF: 0.000012
 word:            worn; amount:   8; TF: 0.000096
 word:         caprice; amount:   3; TF: 0.000036
@@ -1321,7 +1302,7 @@ word:          gourds; amount:   1; TF: 0.000012
 word:       troubling; amount:   1; TF: 0.000012
 word:        hertford; amount:   2; TF: 0.000024
 word:        caressed; amount:   1; TF: 0.000012
-word:         actress; amount:   8; TF: 0.000096
+word:         actress; amount:   9; TF: 0.000108
 word:         rubbing; amount:   1; TF: 0.000012
 word:          forgot; amount:   4; TF: 0.000048
 word:        appeased; amount:   1; TF: 0.000012
@@ -1360,7 +1341,6 @@ word:           fiend; amount:   1; TF: 0.000012
 word:          gained; amount:   1; TF: 0.000012
 word:        dandyism; amount:   1; TF: 0.000012
 word:        tampered; amount:   1; TF: 0.000012
-word:   cONSEQUENTIAL; amount:   1; TF: 0.000012
 word:         offered; amount:   7; TF: 0.000084
 word:      recognized; amount:   4; TF: 0.000048
 word:        fatality; amount:   4; TF: 0.000048
@@ -1403,7 +1383,7 @@ word:         thought; amount:  84; TF: 0.001006
 word:          hansom; amount:   9; TF: 0.000108
 word:          simile; amount:   1; TF: 0.000012
 word:       emeraults; amount:   1; TF: 0.000012
-word:         inquest; amount:   5; TF: 0.000060
+word:         inquest; amount:   6; TF: 0.000072
 word:     personality; amount:  16; TF: 0.000192
 word:          oxford; amount:   5; TF: 0.000060
 word:           drums; amount:   1; TF: 0.000012
@@ -1484,7 +1464,6 @@ word:   grotesqueness; amount:   1; TF: 0.000012
 word:        instinct; amount:   7; TF: 0.000084
 word:           fifth; amount:   2; TF: 0.000024
 word:    architecture; amount:   1; TF: 0.000012
-word:         iMPLIED; amount:   1; TF: 0.000012
 word:           fifty; amount:   4; TF: 0.000048
 word:       increased; amount:   2; TF: 0.000024
 word:            coil; amount:   1; TF: 0.000012
@@ -1516,7 +1495,7 @@ word:        compared; amount:   4; TF: 0.000048
 word:            cord; amount:   1; TF: 0.000012
 word:        compares; amount:   1; TF: 0.000012
 word:           bolts; amount:   1; TF: 0.000012
-word:          direct; amount:   1; TF: 0.000012
+word:          direct; amount:   2; TF: 0.000024
 word:    philostratus; amount:   1; TF: 0.000012
 word:          prayed; amount:   2; TF: 0.000024
 word:           great; amount:  75; TF: 0.000898
@@ -1554,7 +1533,7 @@ word:           fight; amount:   1; TF: 0.000012
 word:    indifference; amount:   3; TF: 0.000036
 word:          critic; amount:   1; TF: 0.000012
 word:         wearied; amount:   1; TF: 0.000012
-word:        anything; amount:  69; TF: 0.000826
+word:        anything; amount:  70; TF: 0.000838
 word:         viewing; amount:   1; TF: 0.000012
 word:        precious; amount:   1; TF: 0.000012
 word:         texture; amount:   1; TF: 0.000012
@@ -1582,7 +1561,7 @@ word:           every; amount:  60; TF: 0.000719
 word:          square; amount:   8; TF: 0.000096
 word:         bourdon; amount:   1; TF: 0.000012
 word:          edited; amount:   1; TF: 0.000012
-word:         cHAPTER; amount:  24; TF: 0.000287
+word:         wearily; amount:   4; TF: 0.000048
 word:         incense; amount:   1; TF: 0.000012
 word:         october; amount:   1; TF: 0.000012
 word:          garter; amount:   1; TF: 0.000012
@@ -1693,6 +1672,7 @@ word:        mercutio; amount:   2; TF: 0.000024
 word:          genius; amount:  12; TF: 0.000144
 word:            away; amount: 103; TF: 0.001234
 word:            pipe; amount:   3; TF: 0.000036
+word:          ebooks; amount:   7; TF: 0.000084
 word:        industry; amount:   1; TF: 0.000012
 word:            gets; amount:   2; TF: 0.000024
 word:          bronze; amount:   2; TF: 0.000024
@@ -1724,6 +1704,7 @@ word:           seeks; amount:   1; TF: 0.000012
 word:            lull; amount:   1; TF: 0.000012
 word:          canopy; amount:   1; TF: 0.000012
 word:            nose; amount:   3; TF: 0.000036
+word:         fitness; amount:   1; TF: 0.000012
 word:           exact; amount:   1; TF: 0.000012
 word:       detriment; amount:   1; TF: 0.000012
 word:            note; amount:  13; TF: 0.000156
@@ -1735,7 +1716,7 @@ word:          atoned; amount:   1; TF: 0.000012
 word:          defeat; amount:   1; TF: 0.000012
 word:          atones; amount:   1; TF: 0.000012
 word:         gondola; amount:   1; TF: 0.000012
-word:     pOSSIBILITY; amount:   2; TF: 0.000024
+word:          broods; amount:   1; TF: 0.000012
 word:         costume; amount:   5; TF: 0.000060
 word:          defect; amount:   4; TF: 0.000048
 word:      broideries; amount:   1; TF: 0.000012
@@ -1798,7 +1779,6 @@ word:        hamilton; amount:   1; TF: 0.000012
 word:    whitewashing; amount:   1; TF: 0.000012
 word:         covered; amount:  13; TF: 0.000156
 word:          arcade; amount:   1; TF: 0.000012
-word:           uNDER; amount:   1; TF: 0.000012
 word:     selfishness; amount:   1; TF: 0.000012
 word:        nocturne; amount:   2; TF: 0.000024
 word:          demons; amount:   1; TF: 0.000012
@@ -1819,9 +1799,9 @@ word:            else; amount:  24; TF: 0.000287
 word:       panegyric; amount:   1; TF: 0.000012
 word:          france; amount:   2; TF: 0.000024
 word:      represents; amount:   1; TF: 0.000012
-word:          pLEASE; amount:   1; TF: 0.000012
+word:          liable; amount:   1; TF: 0.000012
 word:            crop; amount:   2; TF: 0.000024
-word:      disclaimer; amount:   3; TF: 0.000036
+word:      disclaimer; amount:   4; TF: 0.000048
 word:            crow; amount:   1; TF: 0.000012
 word:         promise; amount:   4; TF: 0.000048
 word:      conscience; amount:  12; TF: 0.000144
@@ -1837,7 +1817,7 @@ word:           piles; amount:   1; TF: 0.000012
 word:        shutting; amount:   5; TF: 0.000060
 word:       specified; amount:   2; TF: 0.000024
 word:          oblige; amount:   2; TF: 0.000024
-word:            read; amount:  32; TF: 0.000383
+word:            read; amount:  33; TF: 0.000395
 word:       parentage; amount:   1; TF: 0.000012
 word:            real; amount:  41; TF: 0.000491
 word:       polyssena; amount:   1; TF: 0.000012
@@ -1849,7 +1829,6 @@ word:       sentences; amount:   1; TF: 0.000012
 word:           hylas; amount:   1; TF: 0.000012
 word:         tangled; amount:   1; TF: 0.000012
 word:     thoughtless; amount:   2; TF: 0.000024
-word:         lIMITED; amount:   3; TF: 0.000036
 word:         cheeked; amount:   3; TF: 0.000036
 word:          aragon; amount:   1; TF: 0.000012
 word:        punished; amount:   6; TF: 0.000072
@@ -1884,7 +1863,6 @@ word:      accidental; amount:   1; TF: 0.000012
 word:         pyramid; amount:   1; TF: 0.000012
 word:          rattle; amount:   2; TF: 0.000024
 word:          placed; amount:  11; TF: 0.000132
-word:            sEND; amount:   1; TF: 0.000012
 word:          places; amount:   8; TF: 0.000096
 word:        destined; amount:   3; TF: 0.000036
 word:           teach; amount:   5; TF: 0.000060
@@ -1939,7 +1917,6 @@ word:          active; amount:   3; TF: 0.000036
 word:         methods; amount:   3; TF: 0.000036
 word:           spell; amount:   1; TF: 0.000012
 word:       waistcoat; amount:   1; TF: 0.000012
-word:           rIGHT; amount:   1; TF: 0.000012
 word:          audley; amount:   2; TF: 0.000024
 word:            yotl; amount:   1; TF: 0.000012
 word:          formed; amount:   1; TF: 0.000012
@@ -1960,6 +1937,7 @@ word:       dryadlike; amount:   1; TF: 0.000012
 word:         fancies; amount:   2; TF: 0.000024
 word:          mouths; amount:   3; TF: 0.000036
 word:        stealing; amount:   1; TF: 0.000012
+word:        indirect; amount:   1; TF: 0.000012
 word:       swiftness; amount:   1; TF: 0.000012
 word:        crystals; amount:   2; TF: 0.000024
 word:         shooter; amount:   1; TF: 0.000012
@@ -2018,7 +1996,7 @@ word:     performance; amount:   4; TF: 0.000048
 word:           doesn; amount:  12; TF: 0.000144
 word:          humble; amount:   1; TF: 0.000012
 word:      wristbands; amount:   1; TF: 0.000012
-word:          aCTUAL; amount:   2; TF: 0.000024
+word:         coroner; amount:   1; TF: 0.000012
 word:   prescriptions; amount:   4; TF: 0.000048
 word:        religion; amount:   3; TF: 0.000036
 word:           fewer; amount:   1; TF: 0.000012
@@ -2124,7 +2102,7 @@ word:       direction; amount:   7; TF: 0.000084
 word:          colder; amount:   1; TF: 0.000012
 word:          ulster; amount:   4; TF: 0.000048
 word:          curled; amount:   4; TF: 0.000048
-word:            give; amount:  42; TF: 0.000503
+word:            give; amount:  43; TF: 0.000515
 word:       silliness; amount:   1; TF: 0.000012
 word:       heartless; amount:   2; TF: 0.000024
 word:        toujours; amount:   1; TF: 0.000012
@@ -2140,7 +2118,6 @@ word:          pigeon; amount:   1; TF: 0.000012
 word:          rising; amount:   6; TF: 0.000072
 word:         clotted; amount:   1; TF: 0.000012
 word:          scenes; amount:   8; TF: 0.000096
-word:           sTART; amount:   2; TF: 0.000024
 word:         amongst; amount:   6; TF: 0.000072
 word:          coldly; amount:   4; TF: 0.000048
 word:        intimate; amount:   4; TF: 0.000048
@@ -2148,7 +2125,6 @@ word:            cups; amount:   2; TF: 0.000024
 word:           lucky; amount:   1; TF: 0.000012
 word:          smyrna; amount:   2; TF: 0.000024
 word:          simple; amount:   8; TF: 0.000096
-word:       lIABILITY; amount:   1; TF: 0.000012
 word:          simply; amount:  41; TF: 0.000491
 word:            cure; amount:   7; TF: 0.000084
 word:            curl; amount:   1; TF: 0.000012
@@ -2187,6 +2163,7 @@ word:           moons; amount:   1; TF: 0.000012
 word:         meeting; amount:   3; TF: 0.000036
 word:       sapphires; amount:   2; TF: 0.000024
 word:          define; amount:   1; TF: 0.000012
+word:         preface; amount:   1; TF: 0.000012
 word:          saints; amount:   2; TF: 0.000024
 word:           louis; amount:   5; TF: 0.000060
 word:          socket; amount:   1; TF: 0.000012
@@ -2213,7 +2190,6 @@ word:        morality; amount:   2; TF: 0.000024
 word:         complex; amount:   7; TF: 0.000084
 word:        bitterly; amount:   5; TF: 0.000060
 word:   inexperienced; amount:   1; TF: 0.000012
-word:           eBOOK; amount:   2; TF: 0.000024
 word:        heroines; amount:   2; TF: 0.000024
 word:           label; amount:   1; TF: 0.000012
 word:         spinels; amount:   1; TF: 0.000012
@@ -2351,7 +2327,6 @@ word:        organism; amount:   1; TF: 0.000012
 word:          plague; amount:   1; TF: 0.000012
 word:        creature; amount:   8; TF: 0.000096
 word:        richmond; amount:   3; TF: 0.000036
-word:         aCTRESS; amount:   1; TF: 0.000012
 word:     brickfields; amount:   1; TF: 0.000012
 word:       hypertext; amount:   1; TF: 0.000012
 word:        discords; amount:   1; TF: 0.000012
@@ -2400,8 +2375,7 @@ word:       overtired; amount:   1; TF: 0.000012
 word:           doing; amount:  18; TF: 0.000216
 word:        brightly; amount:   1; TF: 0.000012
 word:      contradict; amount:   1; TF: 0.000012
-word:           under; amount:  18; TF: 0.000216
-word:          bREACH; amount:   2; TF: 0.000024
+word:           under; amount:  19; TF: 0.000228
 word:         reading; amount:   5; TF: 0.000060
 word:      moderation; amount:   1; TF: 0.000012
 word:        rascally; amount:   1; TF: 0.000012
@@ -2427,9 +2401,8 @@ word:         deceive; amount:   1; TF: 0.000012
 word:          office; amount:   6; TF: 0.000072
 word:           selby; amount:  12; TF: 0.000144
 word:        musician; amount:   2; TF: 0.000024
-word:         iNQUEST; amount:   1; TF: 0.000012
 word:           laden; amount:   3; TF: 0.000036
-word:       gutenberg; amount:  89; TF: 0.001066
+word:       gutenberg; amount:  93; TF: 0.001114
 word:       unstained; amount:   2; TF: 0.000024
 word:         enemies; amount:   4; TF: 0.000048
 word:       ecstasies; amount:   1; TF: 0.000012
@@ -2475,7 +2448,7 @@ word:         placing; amount:   1; TF: 0.000012
 word:            tell; amount:  93; TF: 0.001114
 word:      restaurant; amount:   2; TF: 0.000024
 word:          button; amount:   5; TF: 0.000060
-word:      warranties; amount:   1; TF: 0.000012
+word:      warranties; amount:   3; TF: 0.000036
 word:       substance; amount:   1; TF: 0.000012
 word:      uneducated; amount:   2; TF: 0.000024
 word:     vivisecting; amount:   2; TF: 0.000024
@@ -2487,7 +2460,6 @@ word:       confirmed; amount:   2; TF: 0.000024
 word:        legacies; amount:   1; TF: 0.000012
 word:          caesar; amount:   1; TF: 0.000012
 word:       servility; amount:   2; TF: 0.000024
-word:        wARRANTY; amount:   2; TF: 0.000024
 word:            test; amount:   3; TF: 0.000036
 word:        curtains; amount:   5; TF: 0.000060
 word:         writhed; amount:   1; TF: 0.000012
@@ -2511,7 +2483,7 @@ word:       trampling; amount:   1; TF: 0.000012
 word:       lingering; amount:   1; TF: 0.000012
 word:         dripped; amount:   1; TF: 0.000012
 word:       exercised; amount:   3; TF: 0.000036
-word:           right; amount:  52; TF: 0.000623
+word:           right; amount:  53; TF: 0.000635
 word:         carried; amount:   6; TF: 0.000072
 word:          piazza; amount:   2; TF: 0.000024
 word:         perhaps; amount:  40; TF: 0.000479
@@ -2524,7 +2496,7 @@ word:          couldn; amount:   4; TF: 0.000048
 word:          yellow; amount:  22; TF: 0.000263
 word:         damaged; amount:   1; TF: 0.000012
 word:         delight; amount:   7; TF: 0.000084
-word:         damages; amount:   2; TF: 0.000024
+word:         damages; amount:   4; TF: 0.000048
 word:         lescaut; amount:   1; TF: 0.000012
 word:           black; amount:  30; TF: 0.000359
 word:       colouring; amount:   4; TF: 0.000048
@@ -2549,7 +2521,6 @@ word:         sorrows; amount:  11; TF: 0.000132
 word:         founder; amount:   2; TF: 0.000024
 word:           would; amount: 308; TF: 0.003689
 word:        stroking; amount:   1; TF: 0.000012
-word:      nEGLIGENCE; amount:   1; TF: 0.000012
 word:       preferred; amount:   1; TF: 0.000012
 word:       contralto; amount:   1; TF: 0.000012
 word:        midnight; amount:   5; TF: 0.000060
@@ -2633,7 +2604,6 @@ word:       cornelian; amount:   1; TF: 0.000012
 word:         antique; amount:   3; TF: 0.000036
 word:            vain; amount:   7; TF: 0.000084
 word:          pallid; amount:   8; TF: 0.000096
-word:      dISTRIBUTE; amount:   1; TF: 0.000012
 word:          choked; amount:   1; TF: 0.000012
 word:       adoration; amount:   4; TF: 0.000048
 word:        ungainly; amount:   1; TF: 0.000012
@@ -2661,7 +2631,6 @@ word:       venetians; amount:   1; TF: 0.000012
 word:       carefully; amount:   3; TF: 0.000036
 word:           badly; amount:   6; TF: 0.000072
 word:       emigrated; amount:   1; TF: 0.000012
-word:     rEPLACEMENT; amount:   1; TF: 0.000012
 word:      whispering; amount:   2; TF: 0.000024
 word:           trace; amount:   3; TF: 0.000036
 word:           track; amount:   2; TF: 0.000024
@@ -2692,7 +2661,6 @@ word:          beaten; amount:   1; TF: 0.000012
 word:          beater; amount:   2; TF: 0.000024
 word:      anastasius; amount:   1; TF: 0.000012
 word:           train; amount:   8; TF: 0.000096
-word:           oSCAR; amount:   1; TF: 0.000012
 word:        telegram; amount:   1; TF: 0.000012
 word:        florence; amount:   1; TF: 0.000012
 word:       drizzling; amount:   1; TF: 0.000012
@@ -2725,9 +2693,7 @@ word:    bankruptcies; amount:   1; TF: 0.000012
 word:          lilies; amount:   3; TF: 0.000036
 word:       cigarette; amount:  15; TF: 0.000180
 word:       lamplight; amount:   2; TF: 0.000024
-word:            fULL; amount:   2; TF: 0.000024
 word:       scuffling; amount:   1; TF: 0.000012
-word:         fITNESS; amount:   1; TF: 0.000012
 word:           corps; amount:   1; TF: 0.000012
 word:           first; amount:  48; TF: 0.000575
 word:           kneel; amount:   2; TF: 0.000024
@@ -2736,7 +2702,7 @@ word:          lovers; amount:   3; TF: 0.000036
 word:          saddle; amount:   2; TF: 0.000024
 word:        dolphins; amount:   1; TF: 0.000012
 word:           stars; amount:   6; TF: 0.000072
-word:           start; amount:   2; TF: 0.000024
+word:           start; amount:   4; TF: 0.000048
 word:          finger; amount:   1; TF: 0.000012
 word:        innocent; amount:   6; TF: 0.000072
 word:        deformed; amount:   1; TF: 0.000012
@@ -2759,7 +2725,7 @@ word:          seated; amount:   8; TF: 0.000096
 word:       landscape; amount:   2; TF: 0.000024
 word:         midland; amount:   1; TF: 0.000012
 word:            than; amount: 123; TF: 0.001473
-word:            that; amount: 1374; TF: 0.016455
+word:            that; amount: 1376; TF: 0.016479
 word:           knelt; amount:   1; TF: 0.000012
 word:        confused; amount:   1; TF: 0.000012
 word:          myriad; amount:   3; TF: 0.000036
@@ -2788,7 +2754,7 @@ word:          summed; amount:   1; TF: 0.000012
 word:          summer; amount:  12; TF: 0.000144
 word:          carnal; amount:   1; TF: 0.000012
 word:            thin; amount:  14; TF: 0.000168
-word:            this; amount: 193; TF: 0.002311
+word:            this; amount: 198; TF: 0.002371
 word:         picking; amount:   2; TF: 0.000024
 word:   confessionals; amount:   1; TF: 0.000012
 word:           taunt; amount:   1; TF: 0.000012
@@ -2814,24 +2780,24 @@ word:           scurf; amount:   1; TF: 0.000012
 word:           china; amount:   4; TF: 0.000048
 word:            thou; amount:   2; TF: 0.000024
 word:         towards; amount:  17; TF: 0.000204
-word:     dISTRIBUTOR; amount:   1; TF: 0.000012
 word:       associate; amount:   2; TF: 0.000024
 word:        distress; amount:   1; TF: 0.000012
 word:       adventure; amount:   1; TF: 0.000012
-word:       pARAGRAPH; amount:   1; TF: 0.000012
 word:           sides; amount:   2; TF: 0.000024
 word:          gentle; amount:   1; TF: 0.000012
 word:          agatha; amount:  15; TF: 0.000180
 word:          gently; amount:   2; TF: 0.000024
 word:        brothers; amount:   3; TF: 0.000036
 word:          become; amount:  28; TF: 0.000335
-word:            even; amount:  50; TF: 0.000599
+word:            even; amount:  51; TF: 0.000611
 word:            ever; amount:  78; TF: 0.000934
 word:       sometimes; amount:  23; TF: 0.000275
 word:         candour; amount:   2; TF: 0.000024
 word:           ebony; amount:   2; TF: 0.000024
 word:          unless; amount:   6; TF: 0.000072
 word:        disclaim; amount:   1; TF: 0.000012
+word:           ebook; amount:  10; TF: 0.000120
+word:      incidental; amount:   1; TF: 0.000012
 word:           mourn; amount:   1; TF: 0.000012
 word:       disgraced; amount:   2; TF: 0.000024
 word:            thus; amount:   4; TF: 0.000048
@@ -2904,9 +2870,7 @@ word:         contact; amount:   5; TF: 0.000060
 word:          helped; amount:   4; TF: 0.000048
 word:       conqueror; amount:   1; TF: 0.000012
 word:            tier; amount:   1; TF: 0.000012
-word:             aND; amount:   1; TF: 0.000012
 word:          florid; amount:   2; TF: 0.000024
-word:             aNY; amount:   3; TF: 0.000036
 word:            band; amount:   1; TF: 0.000012
 word:            road; amount:   6; TF: 0.000072
 word:            bank; amount:   1; TF: 0.000012
@@ -2920,6 +2884,7 @@ word:         uniform; amount:   1; TF: 0.000012
 word:          pierre; amount:   1; TF: 0.000012
 word:          sordid; amount:   6; TF: 0.000072
 word:          outfit; amount:   1; TF: 0.000012
+word:        remedies; amount:   1; TF: 0.000012
 word:     picturesque; amount:   3; TF: 0.000036
 word:            rode; amount:   4; TF: 0.000048
 word:          stones; amount:   6; TF: 0.000072
@@ -2965,14 +2930,13 @@ word:         dislike; amount:   5; TF: 0.000060
 word:            keys; amount:   1; TF: 0.000012
 word:            rope; amount:   1; TF: 0.000012
 word:        standing; amount:  14; TF: 0.000168
-word:          please; amount:   6; TF: 0.000072
+word:          please; amount:   7; TF: 0.000084
 word:          gilded; amount:   4; TF: 0.000048
 word:          hearth; amount:   2; TF: 0.000024
 word:      crocodiles; amount:   2; TF: 0.000024
 word:          shadow; amount:  10; TF: 0.000120
 word:         shouldn; amount:   4; TF: 0.000048
 word:          hearts; amount:   2; TF: 0.000024
-word:          eXCEPT; amount:   1; TF: 0.000012
 word:         spotted; amount:   5; TF: 0.000060
 word:         stirred; amount:  17; TF: 0.000204
 word:          sparks; amount:   3; TF: 0.000036
@@ -3034,9 +2998,9 @@ word:           whose; amount:  46; TF: 0.000551
 word:           spoon; amount:   1; TF: 0.000012
 word:         improve; amount:   2; TF: 0.000024
 word:         exactly; amount:   5; TF: 0.000060
-word:             and; amount: 2282; TF: 0.027330
+word:             and; amount: 2283; TF: 0.027342
 word:          couple; amount:   3; TF: 0.000036
-word:             any; amount: 151; TF: 0.001808
+word:             any; amount: 154; TF: 0.001844
 word:        monotony; amount:   2; TF: 0.000024
 word:    circumstance; amount:   1; TF: 0.000012
 word:           sport; amount:   3; TF: 0.000036
@@ -3044,7 +3008,7 @@ word:             apt; amount:   1; TF: 0.000012
 word:      paragraphs; amount:   3; TF: 0.000036
 word:          finish; amount:   5; TF: 0.000060
 word:         keeping; amount:   8; TF: 0.000096
-word:            gray; amount: 203; TF: 0.002431
+word:            gray; amount: 205; TF: 0.002455
 word:             are; amount: 392; TF: 0.004695
 word:         roundly; amount:   1; TF: 0.000012
 word:             arm; amount:  19; TF: 0.000228
@@ -3059,7 +3023,6 @@ word:       different; amount:  17; TF: 0.000204
 word:           built; amount:   3; TF: 0.000036
 word:        corridor; amount:   1; TF: 0.000012
 word:          wicked; amount:   8; TF: 0.000096
-word:             bUT; amount:   1; TF: 0.000012
 word:          carpet; amount:   5; TF: 0.000060
 word:        embalmed; amount:   1; TF: 0.000012
 word:          wicker; amount:   2; TF: 0.000024
@@ -3097,22 +3060,19 @@ word:        charcoal; amount:   1; TF: 0.000012
 word:             bad; amount:  37; TF: 0.000443
 word:          dwarfs; amount:   1; TF: 0.000012
 word:             bag; amount:   6; TF: 0.000072
-word:              aK; amount:   1; TF: 0.000012
-word:              aN; amount:   1; TF: 0.000012
 word:             bar; amount:   6; TF: 0.000072
-word:              aS; amount:   1; TF: 0.000012
 word:   characterizes; amount:   1; TF: 0.000012
 word:     confessions; amount:   1; TF: 0.000012
-word:              bE; amount:   1; TF: 0.000012
 word:              ah; amount:  35; TF: 0.000419
+word:              ak; amount:   1; TF: 0.000012
 word:              al; amount:   2; TF: 0.000024
 word:              am; amount: 232; TF: 0.002779
-word:              an; amount: 232; TF: 0.002779
-word:              as; amount: 584; TF: 0.006994
+word:              an; amount: 233; TF: 0.002790
+word:              as; amount: 585; TF: 0.007006
 word:              at; amount: 577; TF: 0.006910
 word:              au; amount:   2; TF: 0.000024
 word:            made; amount: 110; TF: 0.001317
-word:              be; amount: 471; TF: 0.005641
+word:              be; amount: 472; TF: 0.005653
 word:        blinking; amount:   2; TF: 0.000024
 word:              by; amount: 244; TF: 0.002922
 word:     querulously; amount:   1; TF: 0.000012
@@ -3134,27 +3094,23 @@ word:              et; amount:   3; TF: 0.000036
 word:        produces; amount:   1; TF: 0.000012
 word:     magnificent; amount:   2; TF: 0.000024
 word:          suffer; amount:   9; TF: 0.000108
-word:          dAMAGE; amount:   1; TF: 0.000012
 word:            mail; amount:   2; TF: 0.000024
 word:            maim; amount:   1; TF: 0.000012
 word:            main; amount:   1; TF: 0.000012
 word:      psychology; amount:   4; TF: 0.000048
 word:              go; amount: 115; TF: 0.001377
 word:              he; amount: 1546; TF: 0.018515
-word:              iF; amount:   1; TF: 0.000012
-word:              iI; amount:   3; TF: 0.000036
-word:              iN; amount:   1; TF: 0.000012
-word:              iS; amount:   1; TF: 0.000012
 word:             bit; amount:  13; TF: 0.000156
-word:              iV; amount:   1; TF: 0.000012
 word:            make; amount:  63; TF: 0.000755
 word:           taxes; amount:   1; TF: 0.000012
-word:              if; amount: 243; TF: 0.002910
+word:              if; amount: 244; TF: 0.002922
+word:              ii; amount:   3; TF: 0.000036
 word:          advice; amount:   2; TF: 0.000024
-word:              in; amount: 1265; TF: 0.015150
+word:              in; amount: 1266; TF: 0.015162
 word:        stealthy; amount:   2; TF: 0.000024
-word:              is; amount: 933; TF: 0.011174
+word:              is; amount: 934; TF: 0.011186
 word:              it; amount: 1359; TF: 0.016276
+word:              iv; amount:   1; TF: 0.000012
 word:          plants; amount:   1; TF: 0.000012
 word:            mall; amount:   1; TF: 0.000012
 word:              je; amount:   1; TF: 0.000012
@@ -3169,26 +3125,24 @@ word:              le; amount:   3; TF: 0.000036
 word:              ll; amount:   6; TF: 0.000072
 word:            many; amount:  43; TF: 0.000515
 word:              me; amount: 523; TF: 0.006264
-word:              nO; amount:   2; TF: 0.000024
 word:              mr; amount:  87; TF: 0.001042
 word:              my; amount: 303; TF: 0.003629
-word:              oF; amount:  12; TF: 0.000144
-word:              no; amount: 227; TF: 0.002719
-word:              oR; amount:   6; TF: 0.000072
+word:              no; amount: 228; TF: 0.002731
 word:             bow; amount:   6; TF: 0.000072
 word:             box; amount:  14; TF: 0.000168
 word:             boy; amount:  36; TF: 0.000431
 word:          bishop; amount:   3; TF: 0.000036
-word:              of; amount: 2286; TF: 0.027378
-word:              pG; amount:  51; TF: 0.000611
+word:              of; amount: 2298; TF: 0.027522
+word:              oh; amount:  50; TF: 0.000599
 word:     information; amount:  12; TF: 0.000144
 word:         handful; amount:   1; TF: 0.000012
 word:        scolding; amount:   1; TF: 0.000012
-word:              on; amount: 370; TF: 0.004431
-word:              or; amount: 292; TF: 0.003497
+word:              on; amount: 371; TF: 0.004443
+word:              or; amount: 298; TF: 0.003569
 word:            mare; amount:   2; TF: 0.000024
 word:          assume; amount:   1; TF: 0.000012
 word:            mark; amount:   2; TF: 0.000024
+word:              pg; amount:   1; TF: 0.000012
 word:          pietro; amount:   2; TF: 0.000024
 word:          hatred; amount:   2; TF: 0.000024
 word:            mars; amount:   2; TF: 0.000024
@@ -3206,27 +3160,27 @@ word:         cursing; amount:   1; TF: 0.000012
 word:      hydropicus; amount:   1; TF: 0.000012
 word:          pupils; amount:   2; TF: 0.000024
 word:              so; amount: 249; TF: 0.002982
-word:              tO; amount:   2; TF: 0.000024
 word:              st; amount:   4; TF: 0.000048
 word:         cheroot; amount:   1; TF: 0.000012
 word:            very; amount: 124; TF: 0.001485
 word:             bud; amount:   1; TF: 0.000012
 word:        delicacy; amount:   1; TF: 0.000012
-word:          actual; amount:   5; TF: 0.000060
+word:          actual; amount:   6; TF: 0.000072
 word:         arrange; amount:   1; TF: 0.000012
 word:              tm; amount:  57; TF: 0.000683
-word:              to; amount: 2179; TF: 0.026096
+word:              to; amount: 2181; TF: 0.026120
 word:             but; amount: 404; TF: 0.004838
 word:             buy; amount:   2; TF: 0.000024
 word:          assure; amount:  10; TF: 0.000120
 word:      compliance; amount:   5; TF: 0.000060
-word:              vI; amount:   2; TF: 0.000024
 word:              un; amount:   3; TF: 0.000036
 word:              up; amount: 153; TF: 0.001832
 word:              us; amount: 122; TF: 0.001461
+word:              ut; amount:   1; TF: 0.000012
 word:      reticences; amount:   1; TF: 0.000012
 word:           trees; amount:   6; TF: 0.000072
 word:              ve; amount:   1; TF: 0.000012
+word:              vi; amount:   2; TF: 0.000024
 word:          endure; amount:   1; TF: 0.000012
 word:           steel; amount:   3; TF: 0.000036
 word:              we; amount: 178; TF: 0.002132
@@ -3326,7 +3280,6 @@ word:          honour; amount:   5; TF: 0.000060
 word:     recommended; amount:   1; TF: 0.000012
 word:          chopin; amount:   4; TF: 0.000048
 word:           lumpy; amount:   1; TF: 0.000012
-word:         pREFACE; amount:   1; TF: 0.000012
 word:       indemnify; amount:   1; TF: 0.000012
 word:           class; amount:   7; TF: 0.000084
 word:         crooked; amount:   2; TF: 0.000024
@@ -3364,12 +3317,12 @@ word:          seemed; amount: 119; TF: 0.001425
 word:       underrate; amount:   1; TF: 0.000012
 word:         private; amount:   5; TF: 0.000060
 word:       impassive; amount:   1; TF: 0.000012
-word:            hTML; amount:   2; TF: 0.000024
 word:         expound; amount:   1; TF: 0.000012
 word:     blackmailed; amount:   1; TF: 0.000012
 word:            into; amount: 159; TF: 0.001904
 word:        crescent; amount:   1; TF: 0.000012
 word:     callousness; amount:   1; TF: 0.000012
+word:       indemnity; amount:   1; TF: 0.000012
 word:        scotland; amount:   1; TF: 0.000012
 word:         drivers; amount:   1; TF: 0.000012
 word:           spray; amount:   3; TF: 0.000036
@@ -3417,7 +3370,6 @@ word:             die; amount:  14; TF: 0.000168
 word:            kids; amount:   1; TF: 0.000012
 word:           noted; amount:   2; TF: 0.000024
 word:             dim; amount:  13; TF: 0.000156
-word:             eIN; amount:   1; TF: 0.000012
 word:           notes; amount:   1; TF: 0.000012
 word:          deadly; amount:   4; TF: 0.000048
 word:          enough; amount:  21; TF: 0.000252
@@ -3432,7 +3384,6 @@ word:            bell; amount:  11; TF: 0.000132
 word:          echoed; amount:   7; TF: 0.000084
 word:          nearly; amount:  16; TF: 0.000192
 word:       imploring; amount:   1; TF: 0.000012
-word:             eND; amount:   1; TF: 0.000012
 word:           expel; amount:   2; TF: 0.000024
 word:          purely; amount:   6; TF: 0.000072
 word:        boniface; amount:   1; TF: 0.000012
@@ -3453,14 +3404,14 @@ word:            kill; amount:  13; TF: 0.000156
 word:          reveal; amount:   7; TF: 0.000084
 word:        whispers; amount:   1; TF: 0.000012
 word:          stored; amount:   3; TF: 0.000036
-word:            kind; amount:  27; TF: 0.000323
+word:            kind; amount:  28; TF: 0.000335
 word:             dry; amount:   6; TF: 0.000072
 word:            king; amount:  10; TF: 0.000120
 word:     ministerial; amount:   1; TF: 0.000012
 word:        protests; amount:   1; TF: 0.000012
 word:          colour; amount:  21; TF: 0.000252
 word:           bulky; amount:   1; TF: 0.000012
-word:           oscar; amount:   8; TF: 0.000096
+word:           oscar; amount:   9; TF: 0.000108
 word:            best; amount:  22; TF: 0.000263
 word:        repeated; amount:  13; TF: 0.000156
 word:             dug; amount:   1; TF: 0.000012
@@ -3535,6 +3486,7 @@ word:          frieze; amount:   1; TF: 0.000012
 word:          humour; amount:   1; TF: 0.000012
 word:         handing; amount:   2; TF: 0.000024
 word:           leave; amount:  21; TF: 0.000252
+word:             ein; amount:   1; TF: 0.000012
 word:       seventeen; amount:   4; TF: 0.000048
 word:          flowed; amount:   1; TF: 0.000012
 word:          flower; amount:  12; TF: 0.000144
@@ -3545,13 +3497,12 @@ word:          chords; amount:   1; TF: 0.000012
 word:        exchange; amount:   1; TF: 0.000012
 word:         bismuth; amount:   1; TF: 0.000012
 word:        capacity; amount:   1; TF: 0.000012
-word:             end; amount:  29; TF: 0.000347
+word:             end; amount:  30; TF: 0.000359
 word:       trouville; amount:   1; TF: 0.000012
 word:         weeping; amount:   1; TF: 0.000012
 word:   accompaniment; amount:   1; TF: 0.000012
 word:        hedonism; amount:   2; TF: 0.000024
 word:           lamps; amount:   5; TF: 0.000060
-word:             fOR; amount:   3; TF: 0.000036
 word:           aloes; amount:   1; TF: 0.000012
 word:          begins; amount:   3; TF: 0.000036
 word:           aloft; amount:   1; TF: 0.000012
@@ -3643,6 +3594,7 @@ word:  encyclopaedias; amount:   1; TF: 0.000012
 word:        theories; amount:   6; TF: 0.000072
 word:       subjected; amount:   1; TF: 0.000012
 word:           bunch; amount:   2; TF: 0.000024
+word:            viii; amount:   1; TF: 0.000012
 word:          chosen; amount:   2; TF: 0.000024
 word:             fly; amount:   4; TF: 0.000048
 word:            dare; amount:  11; TF: 0.000132
@@ -3653,14 +3605,14 @@ word:         chasing; amount:   1; TF: 0.000012
 word:            dash; amount:   1; TF: 0.000012
 word:            vile; amount:   4; TF: 0.000048
 word:        studying; amount:   1; TF: 0.000012
-word:            wILL; amount:   1; TF: 0.000012
 word:            data; amount:   1; TF: 0.000012
 word:          secure; amount:   2; TF: 0.000024
 word:             fog; amount:   5; TF: 0.000060
 word:            date; amount:   5; TF: 0.000060
 word:    candleshades; amount:   1; TF: 0.000012
-word:             for; amount: 610; TF: 0.007306
+word:             for; amount: 613; TF: 0.007341
 word:       guardians; amount:   2; TF: 0.000024
+word:          breach; amount:   2; TF: 0.000024
 word:        breaking; amount:   4; TF: 0.000048
 word:            vine; amount:   1; TF: 0.000012
 word:            ruby; amount:   2; TF: 0.000024
@@ -3669,7 +3621,6 @@ word:         perotto; amount:   1; TF: 0.000012
 word:  irreproachable; amount:   1; TF: 0.000012
 word:         awkward; amount:   2; TF: 0.000024
 word:          mother; amount:  44; TF: 0.000527
-word:            sUCH; amount:   1; TF: 0.000012
 word:            viol; amount:   1; TF: 0.000012
 word:         turmoil; amount:   1; TF: 0.000012
 word:         suivant; amount:   2; TF: 0.000024
@@ -3695,7 +3646,7 @@ word:           stick; amount:   4; TF: 0.000048
 word:         healthy; amount:   1; TF: 0.000012
 word:            tone; amount:   4; TF: 0.000048
 word:       alchemist; amount:   1; TF: 0.000012
-word:            wITH; amount:   9; TF: 0.000108
+word:           tried; amount:   8; TF: 0.000096
 word:            ruin; amount:   8; TF: 0.000096
 word:            took; amount:  34; TF: 0.000407
 word:       surprised; amount:   3; TF: 0.000036
@@ -3722,7 +3673,6 @@ word:     mantelshelf; amount:   4; TF: 0.000048
 word:         betting; amount:   1; TF: 0.000012
 word:         crawled; amount:   5; TF: 0.000060
 word:        although; amount:   2; TF: 0.000024
-word:         dAMAGES; amount:   2; TF: 0.000024
 word:           still; amount:  49; TF: 0.000587
 word:        troubled; amount:  11; TF: 0.000132
 word:          either; amount:  26; TF: 0.000311
@@ -3760,9 +3710,8 @@ word:         digging; amount:   1; TF: 0.000012
 word:     temptations; amount:   2; TF: 0.000024
 word:        tortoise; amount:   1; TF: 0.000012
 word:        critical; amount:   1; TF: 0.000012
-word:        aNYTHING; amount:   1; TF: 0.000012
 word:         orients; amount:   1; TF: 0.000012
-word:         project; amount:  84; TF: 0.001006
+word:         project; amount:  88; TF: 0.001054
 word:          hammer; amount:   1; TF: 0.000012
 word:           beams; amount:   1; TF: 0.000012
 word:        battened; amount:   1; TF: 0.000012
@@ -3783,7 +3732,6 @@ word:           bears; amount:   1; TF: 0.000012
 word:        kindness; amount:   1; TF: 0.000012
 word:           beast; amount:   2; TF: 0.000024
 word:           doubt; amount:  11; TF: 0.000132
-word:          nOTICE; amount:   1; TF: 0.000012
 word:             god; amount:  29; TF: 0.000347
 word:          curzon; amount:   2; TF: 0.000024
 word:             got; amount:  54; TF: 0.000647
@@ -3813,7 +3761,7 @@ word:        gigantic; amount:   1; TF: 0.000012
 word:        external; amount:   2; TF: 0.000024
 word:         immoral; amount:   5; TF: 0.000060
 word:          nephew; amount:   1; TF: 0.000012
-word:         picture; amount:  73; TF: 0.000874
+word:         picture; amount:  75; TF: 0.000898
 word:            iron; amount:   4; TF: 0.000048
 word:        listless; amount:   3; TF: 0.000036
 word:         timidly; amount:   1; TF: 0.000012
@@ -3908,7 +3856,6 @@ word:    supercilious; amount:   1; TF: 0.000012
 word:     superficial; amount:   2; TF: 0.000024
 word:       childhood; amount:   1; TF: 0.000012
 word:           lapse; amount:   1; TF: 0.000012
-word:             iRS; amount:   1; TF: 0.000012
 word:       household; amount:   1; TF: 0.000012
 word:            bird; amount:   3; TF: 0.000036
 word:         entered; amount:  26; TF: 0.000311
@@ -4019,6 +3966,7 @@ word:           dowdy; amount:   3; TF: 0.000036
 word:         anxiety; amount:   1; TF: 0.000012
 word:     explanation; amount:   7; TF: 0.000084
 word:           cairo; amount:   1; TF: 0.000012
+word:             irs; amount:   1; TF: 0.000012
 word:        beatrice; amount:   1; TF: 0.000012
 word:        confided; amount:   1; TF: 0.000012
 word:             isn; amount:   8; TF: 0.000096
@@ -4177,7 +4125,6 @@ word:      cartridges; amount:   1; TF: 0.000012
 word:           means; amount:  16; TF: 0.000192
 word:           meant; amount:   8; TF: 0.000096
 word:        eligible; amount:   1; TF: 0.000012
-word:        iNDIRECT; amount:   1; TF: 0.000012
 word:          wasted; amount:   4; TF: 0.000048
 word:      charmingly; amount:   4; TF: 0.000048
 word:           skins; amount:   1; TF: 0.000012
@@ -4259,7 +4206,7 @@ word:        monmouth; amount:   5; TF: 0.000060
 word:           lasts; amount:   3; TF: 0.000036
 word:          walked; amount:  24; TF: 0.000287
 word:           blood; amount:  23; TF: 0.000275
-word:          except; amount:  21; TF: 0.000252
+word:          except; amount:  22; TF: 0.000263
 word:        garlands; amount:   1; TF: 0.000012
 word:           bloom; amount:   3; TF: 0.000036
 word:         benches; amount:   1; TF: 0.000012
@@ -4340,7 +4287,7 @@ word:           weeds; amount:   1; TF: 0.000012
 word:      admiration; amount:   3; TF: 0.000036
 word:            void; amount:   2; TF: 0.000024
 word:  overemphasized; amount:   2; TF: 0.000024
-word:        provided; amount:   5; TF: 0.000060
+word:        provided; amount:   6; TF: 0.000072
 word:     necessarily; amount:   2; TF: 0.000024
 word:           calls; amount:   6; TF: 0.000072
 word:            fawn; amount:   1; TF: 0.000012
@@ -4374,7 +4321,6 @@ word:          winter; amount:   9; TF: 0.000108
 word:      experiment; amount:   4; TF: 0.000048
 word:         doorway; amount:   2; TF: 0.000024
 word:          shaped; amount:  11; TF: 0.000132
-word:            wORK; amount:   1; TF: 0.000012
 word:       velasquez; amount:   1; TF: 0.000012
 word:       procuring; amount:   2; TF: 0.000024
 word:      detestable; amount:   1; TF: 0.000012
@@ -4400,7 +4346,7 @@ word:          played; amount:  15; TF: 0.000180
 word:          jewels; amount:   3; TF: 0.000036
 word:          player; amount:   2; TF: 0.000024
 word:       incrusted; amount:   1; TF: 0.000012
-word:          damage; amount:   1; TF: 0.000012
+word:          damage; amount:   2; TF: 0.000024
 word:           began; amount:  44; TF: 0.000527
 word:        monsieur; amount:   4; TF: 0.000048
 word:         siphons; amount:   1; TF: 0.000012
@@ -4415,6 +4361,7 @@ word:      exhibition; amount:   5; TF: 0.000060
 word:         persons; amount:   3; TF: 0.000036
 word:           stone; amount:   2; TF: 0.000024
 word:           troop; amount:   1; TF: 0.000012
+word:      negligence; amount:   1; TF: 0.000012
 word:           stood; amount:  34; TF: 0.000407
 word:       precision; amount:   1; TF: 0.000012
 word:       intervals; amount:   1; TF: 0.000012
@@ -4465,7 +4412,6 @@ word:       ancestors; amount:   1; TF: 0.000012
 word:       profusely; amount:   1; TF: 0.000012
 word:           based; amount:   3; TF: 0.000036
 word:        berkeley; amount:   1; TF: 0.000012
-word:       dONATIONS; amount:   1; TF: 0.000012
 word:       satinwood; amount:   2; TF: 0.000024
 word:       dishonour; amount:   1; TF: 0.000012
 word:      improbable; amount:   1; TF: 0.000012
@@ -4476,7 +4422,6 @@ word:      understand; amount:  26; TF: 0.000311
 word:       harmonies; amount:   1; TF: 0.000012
 word:        mufflers; amount:   1; TF: 0.000012
 word:     proletariat; amount:   1; TF: 0.000012
-word:             nOT; amount:   2; TF: 0.000024
 word:           basil; amount: 158; TF: 0.001892
 word:           basis; amount:   5; TF: 0.000060
 word:           begun; amount:   4; TF: 0.000048
@@ -4514,7 +4459,7 @@ word:         opening; amount:   2; TF: 0.000024
 word:        sobieski; amount:   1; TF: 0.000012
 word:         allowed; amount:   9; TF: 0.000108
 word:     discovering; amount:   1; TF: 0.000012
-word:      distribute; amount:   5; TF: 0.000060
+word:      distribute; amount:   6; TF: 0.000072
 word:        carriage; amount:   3; TF: 0.000036
 word:            diaz; amount:   1; TF: 0.000012
 word:          fierce; amount:   1; TF: 0.000012
@@ -4570,7 +4515,7 @@ word:            bond; amount:   1; TF: 0.000012
 word:            bone; amount:   1; TF: 0.000012
 word:             non; amount:   1; TF: 0.000012
 word:             nor; amount:   7; TF: 0.000084
-word:             not; amount: 493; TF: 0.005904
+word:             not; amount: 495; TF: 0.005928
 word:         ashamed; amount:   3; TF: 0.000036
 word:             now; amount: 134; TF: 0.001605
 word:        scanning; amount:   1; TF: 0.000012
@@ -4684,7 +4629,6 @@ word:     interrupted; amount:   4; TF: 0.000048
 word:           argue; amount:   3; TF: 0.000036
 word:      sacrifices; amount:   1; TF: 0.000012
 word:        offering; amount:   1; TF: 0.000012
-word:          dORIAN; amount:   2; TF: 0.000024
 word:          malady; amount:   4; TF: 0.000048
 word:     intensified; amount:   4; TF: 0.000048
 word:     intensifies; amount:   1; TF: 0.000012
@@ -4715,7 +4659,7 @@ word:             own; amount: 130; TF: 0.001557
 word:     overcharged; amount:   1; TF: 0.000012
 word:            fear; amount:  15; TF: 0.000180
 word:         dressed; amount:  10; TF: 0.000120
-word:       liability; amount:   2; TF: 0.000024
+word:       liability; amount:   3; TF: 0.000036
 word:      debauchery; amount:   2; TF: 0.000024
 word:         dresses; amount:   6; TF: 0.000072
 word:          minion; amount:   1; TF: 0.000012
@@ -4863,7 +4807,6 @@ word:          heroes; amount:   1; TF: 0.000012
 word:         selects; amount:   1; TF: 0.000012
 word:      discovered; amount:  13; TF: 0.000156
 word:          andrew; amount:   1; TF: 0.000012
-word:         pROJECT; amount:   4; TF: 0.000048
 word:    embroideries; amount:   1; TF: 0.000012
 word:          convey; amount:   2; TF: 0.000024
 word:           cloak; amount:   2; TF: 0.000024
@@ -4872,6 +4815,7 @@ word:        whitened; amount:   1; TF: 0.000012
 word:          layers; amount:   1; TF: 0.000012
 word:         pardons; amount:   1; TF: 0.000012
 word:          gladys; amount:  10; TF: 0.000120
+word:   consequential; amount:   1; TF: 0.000012
 word:           clock; amount:  24; TF: 0.000287
 word:        counties; amount:   1; TF: 0.000012
 word:          twitch; amount:   1; TF: 0.000012
@@ -4928,7 +4872,6 @@ word:          posted; amount:   5; TF: 0.000060
 word:         wrecked; amount:   1; TF: 0.000012
 word:         inspire; amount:   1; TF: 0.000012
 word:      disapprove; amount:   1; TF: 0.000012
-word:         pICTURE; amount:   2; TF: 0.000024
 word:         dreamed; amount:   7; TF: 0.000084
 word:           close; amount:  17; TF: 0.000204
 word:        recalled; amount:   1; TF: 0.000012
@@ -4945,7 +4888,6 @@ word:         bracken; amount:   1; TF: 0.000012
 word:          crease; amount:   1; TF: 0.000012
 word:            hadn; amount:   4; TF: 0.000048
 word:          lipped; amount:   3; TF: 0.000036
-word:            rEAD; amount:   1; TF: 0.000012
 word:             que; amount:   1; TF: 0.000012
 word:       inwrought; amount:   1; TF: 0.000012
 word:          create; amount:   4; TF: 0.000048
@@ -4995,7 +4937,7 @@ word:            hart; amount:   4; TF: 0.000048
 word:          dearer; amount:   1; TF: 0.000012
 word:            hasn; amount:   2; TF: 0.000024
 word:            hast; amount:   1; TF: 0.000012
-word:          notice; amount:   5; TF: 0.000060
+word:          notice; amount:   6; TF: 0.000072
 word:      hiccoughed; amount:   1; TF: 0.000012
 word:            hate; amount:  11; TF: 0.000132
 word:       brainless; amount:   1; TF: 0.000012
@@ -5010,7 +4952,7 @@ word:           cared; amount:   2; TF: 0.000024
 word:         mayfair; amount:   3; TF: 0.000036
 word:        lighting; amount:   3; TF: 0.000036
 word:           place; amount:  36; TF: 0.000431
-word:            have; amount: 566; TF: 0.006779
+word:            have; amount: 567; TF: 0.006791
 word:           cares; amount:   1; TF: 0.000012
 word:          within; amount:  16; TF: 0.000192
 word:       necessity; amount:   4; TF: 0.000048
@@ -5019,7 +4961,6 @@ word:            hawk; amount:   2; TF: 0.000024
 word:          arrows; amount:   1; TF: 0.000012
 word:      hysterical; amount:   1; TF: 0.000012
 word:           bells; amount:   2; TF: 0.000024
-word:           aGREE; amount:   2; TF: 0.000024
 word:         village; amount:   2; TF: 0.000024
 word:         rotting; amount:   1; TF: 0.000012
 word:             rid; amount:   6; TF: 0.000072
@@ -5138,7 +5079,7 @@ word:         observe; amount:   1; TF: 0.000012
 word:          proper; amount:   5; TF: 0.000060
 word:          drowsy; amount:   2; TF: 0.000024
 word:             she; amount: 431; TF: 0.005162
-word:             tHE; amount:   9; TF: 0.000108
+word:          sicken; amount:   2; TF: 0.000024
 word:      charitable; amount:  28; TF: 0.000335
 word:         unlucky; amount:   1; TF: 0.000012
 word:   unpunctuality; amount:   1; TF: 0.000012
@@ -5226,8 +5167,6 @@ word:           danby; amount:   1; TF: 0.000012
 word:           dance; amount:   2; TF: 0.000024
 word:       elizabeth; amount:   3; TF: 0.000036
 word:          stanch; amount:   1; TF: 0.000012
-word:        rEMEDIES; amount:   1; TF: 0.000012
-word:       aGREEMENT; amount:   1; TF: 0.000012
 word:         glasses; amount:   1; TF: 0.000012
 word:        scramble; amount:   1; TF: 0.000012
 word:           dandy; amount:   1; TF: 0.000012
@@ -5276,7 +5215,7 @@ word:      collieries; amount:   1; TF: 0.000012
 word:            firm; amount:   1; TF: 0.000012
 word:           sixth; amount:   1; TF: 0.000012
 word:         tossing; amount:   1; TF: 0.000012
-word:             the; amount: 3941; TF: 0.047199
+word:             the; amount: 3948; TF: 0.047283
 word:           quail; amount:   1; TF: 0.000012
 word:           sixty; amount:   3; TF: 0.000036
 word:          frocks; amount:   3; TF: 0.000036
@@ -5292,7 +5231,6 @@ word:           needs; amount:   2; TF: 0.000024
 word:          credit; amount:   4; TF: 0.000048
 word:       relations; amount:   7; TF: 0.000084
 word:            five; amount:  18; TF: 0.000216
-word:            gIVE; amount:   1; TF: 0.000012
 word:          ranged; amount:   2; TF: 0.000024
 word:         herself; amount:  15; TF: 0.000180
 word:      nineteenth; amount:   9; TF: 0.000108
@@ -5316,7 +5254,7 @@ word:        hundreds; amount:  15; TF: 0.000180
 word:       fortnight; amount:   2; TF: 0.000024
 word:             toy; amount:   1; TF: 0.000012
 word:           decay; amount:   2; TF: 0.000024
-word:         noisily; amount:   1; TF: 0.000012
+word:     possibility; amount:   2; TF: 0.000024
 word:       faithless; amount:   3; TF: 0.000036
 word:       scattered; amount:   1; TF: 0.000012
 word:         parseme; amount:   1; TF: 0.000012
@@ -5324,7 +5262,6 @@ word:           faced; amount:   4; TF: 0.000048
 word:           faces; amount:  10; TF: 0.000120
 word:            down; amount: 102; TF: 0.001222
 word:             try; amount:  26; TF: 0.000311
-word:             uSE; amount:   1; TF: 0.000012
 word:          corner; amount:  14; TF: 0.000168
 word:            burn; amount:   2; TF: 0.000024
 word:         duchess; amount:  44; TF: 0.000527
@@ -5348,7 +5285,6 @@ word:          chance; amount:  15; TF: 0.000180
 word:             txt; amount:   1; TF: 0.000012
 word:         wreaths; amount:   3; TF: 0.000036
 word:      incomplete; amount:   3; TF: 0.000036
-word:       tRADEMARK; amount:   1; TF: 0.000012
 word:       spectator; amount:   3; TF: 0.000036
 word:            buzz; amount:   1; TF: 0.000012
 word:         peasant; amount:   2; TF: 0.000024
@@ -5424,8 +5360,8 @@ word:             urn; amount:   1; TF: 0.000012
 word:         british; amount:   5; TF: 0.000060
 word:            onyx; amount:   1; TF: 0.000012
 word:        jovially; amount:   1; TF: 0.000012
-word:             use; amount:  30; TF: 0.000359
-word:           cause; amount:   6; TF: 0.000072
+word:             use; amount:  31; TF: 0.000371
+word:           cause; amount:   5; TF: 0.000060
 word:       vandeleur; amount:   2; TF: 0.000024
 word:          pained; amount:   1; TF: 0.000012
 word:       campanile; amount:   1; TF: 0.000012
@@ -5466,7 +5402,6 @@ word:           kilns; amount:   1; TF: 0.000012
 word:       whispered; amount:  13; TF: 0.000156
 word:         retreat; amount:   1; TF: 0.000012
 word:        intently; amount:   3; TF: 0.000036
-word: mERCHANTIBILITY; amount:   1; TF: 0.000012
 word:          bottle; amount:   4; TF: 0.000048
 word:     comfortable; amount:   1; TF: 0.000012
 word:     excessively; amount:   1; TF: 0.000012
@@ -5487,7 +5422,7 @@ word:         despair; amount:   3; TF: 0.000036
 word:         reveals; amount:   3; TF: 0.000036
 word:       imitation; amount:   1; TF: 0.000012
 word:     invitations; amount:   1; TF: 0.000012
-word:       paragraph; amount:  12; TF: 0.000144
+word:       paragraph; amount:  13; TF: 0.000156
 word:         passage; amount:   3; TF: 0.000036
 word:         nothing; amount:  93; TF: 0.001114
 word:         scatter; amount:   1; TF: 0.000012
@@ -5538,7 +5473,6 @@ word:         endured; amount:   1; TF: 0.000012
 word:         endures; amount:   1; TF: 0.000012
 word:       astrakhan; amount:   1; TF: 0.000012
 word:         earnest; amount:   2; TF: 0.000024
-word:       iNCLUDING; amount:   1; TF: 0.000012
 word:      tyrannized; amount:   1; TF: 0.000012
 word:        quivered; amount:   2; TF: 0.000024
 word:         holborn; amount:   1; TF: 0.000012
@@ -5621,11 +5555,9 @@ word:             who; amount: 228; TF: 0.002731
 word:             why; amount:  92; TF: 0.001102
 word:         loyalty; amount:   1; TF: 0.000012
 word:          pouted; amount:   1; TF: 0.000012
-word:             xII; amount:   1; TF: 0.000012
 word:       something; amount: 126; TF: 0.001509
 word:             win; amount:   1; TF: 0.000012
 word:             wit; amount:   2; TF: 0.000024
-word:             xIV; amount:   1; TF: 0.000012
 word:       offensive; amount:   2; TF: 0.000024
 word:      revivalist; amount:   1; TF: 0.000012
 word:         bubbles; amount:   1; TF: 0.000012
@@ -5665,7 +5597,7 @@ word:          crying; amount:   2; TF: 0.000024
 word:          affect; amount:   3; TF: 0.000036
 word:       detesting; amount:   1; TF: 0.000012
 word:         sudaria; amount:   1; TF: 0.000012
-word:        contract; amount:   2; TF: 0.000024
+word:        contract; amount:   3; TF: 0.000036
 word:             wry; amount:   1; TF: 0.000012
 word:            seed; amount:   1; TF: 0.000012
 word:            seek; amount:   2; TF: 0.000024
@@ -5685,7 +5617,6 @@ word:        enormous; amount:   2; TF: 0.000024
 word:          cheeky; amount:   1; TF: 0.000012
 word:         precise; amount:   1; TF: 0.000012
 word:   improvisation; amount:   1; TF: 0.000012
-word:          sTRICT; amount:   1; TF: 0.000012
 word:           kings; amount:   1; TF: 0.000012
 word:         thickly; amount:   1; TF: 0.000012
 word:         located; amount:   4; TF: 0.000048
@@ -5706,10 +5637,9 @@ word:         edition; amount:   7; TF: 0.000084
 word:        directly; amount:   2; TF: 0.000024
 word:      comforting; amount:   1; TF: 0.000012
 word:          medium; amount:   8; TF: 0.000096
-word:            send; amount:  16; TF: 0.000192
+word:            send; amount:  17; TF: 0.000204
 word:         outcast; amount:   1; TF: 0.000012
 word:      burlington; amount:   1; TF: 0.000012
-word:          rEFUND; amount:   1; TF: 0.000012
 word:         navarre; amount:   1; TF: 0.000012
 word:            sent; amount:  16; TF: 0.000192
 word:            jars; amount:   2; TF: 0.000024
@@ -5737,7 +5667,7 @@ word:      reasonable; amount:   4; TF: 0.000048
 word:        contrary; amount:   1; TF: 0.000012
 word:      buonarotti; amount:   1; TF: 0.000012
 word:           cells; amount:   1; TF: 0.000012
-word:           agree; amount:   9; TF: 0.000108
+word:           agree; amount:  11; TF: 0.000132
 word:      delighting; amount:   1; TF: 0.000012
 word:        contrast; amount:   2; TF: 0.000024
 word:         hunting; amount:   1; TF: 0.000012
@@ -5757,10 +5687,11 @@ word:            seze; amount:   1; TF: 0.000012
 word:       qualities; amount:   3; TF: 0.000036
 word:  redistribution; amount:   2; TF: 0.000024
 word:          fought; amount:   2; TF: 0.000024
-word:       glasslike; amount:   1; TF: 0.000012
+word:             xii; amount:   1; TF: 0.000012
+word:       glasslike; amount:   2; TF: 0.000024
 word:           shape; amount:   5; TF: 0.000060
 word:          bright; amount:  12; TF: 0.000144
-word:         purpose; amount:   3; TF: 0.000036
+word:         purpose; amount:   4; TF: 0.000048
 word:    deliberation; amount:   1; TF: 0.000012
 word:      sufficient; amount:   2; TF: 0.000024
 word:         liberty; amount:   1; TF: 0.000012
@@ -5788,7 +5719,6 @@ word:        stumbled; amount:   3; TF: 0.000036
 word:        unlawful; amount:   1; TF: 0.000012
 word:         hardens; amount:   1; TF: 0.000012
 word:         fingers; amount:  25; TF: 0.000299
-word:             yOU; amount:   6; TF: 0.000072
 word:          rescue; amount:   1; TF: 0.000012
 word:          starve; amount:   6; TF: 0.000072
 word:        steaming; amount:   2; TF: 0.000024
@@ -5864,6 +5794,7 @@ word:          charms; amount:   2; TF: 0.000024
 word:        guffawed; amount:   1; TF: 0.000012
 word:      conjecture; amount:   1; TF: 0.000012
 word:         fellows; amount:   6; TF: 0.000072
+word:        punitive; amount:   1; TF: 0.000012
 word:          loudly; amount:   1; TF: 0.000012
 word:         audible; amount:   1; TF: 0.000012
 word:         italian; amount:   5; TF: 0.000060
@@ -5872,7 +5803,6 @@ word:    transfigured; amount:   1; TF: 0.000012
 word:          shield; amount:   3; TF: 0.000036
 word:       athenaeum; amount:   1; TF: 0.000012
 word:    transfigures; amount:   1; TF: 0.000012
-word:           wILDE; amount:   1; TF: 0.000012
 word:         similar; amount:   1; TF: 0.000012
 word:             yes; amount:  86; TF: 0.001030
 word:             yet; amount:  72; TF: 0.000862
@@ -5896,12 +5826,13 @@ word:         devoted; amount:   7; TF: 0.000084
 word:      repentance; amount:   1; TF: 0.000012
 word:        artistic; amount:   7; TF: 0.000084
 word:           villa; amount:   3; TF: 0.000036
+word: merchantibility; amount:   1; TF: 0.000012
 word:         enflent; amount:   1; TF: 0.000012
 word:          exempt; amount:   2; TF: 0.000024
 word:        slightly; amount:   4; TF: 0.000048
 word:         chooses; amount:   1; TF: 0.000012
 word:        drinking; amount:   2; TF: 0.000024
-word:             you; amount: 1509; TF: 0.018072
+word:             you; amount: 1515; TF: 0.018144
 word:         haunted; amount:   2; TF: 0.000024
 word:         quietly; amount:   6; TF: 0.000072
 word:           amber; amount:   3; TF: 0.000036
@@ -5968,10 +5899,10 @@ word:       paperwork; amount:   1; TF: 0.000012
 word:          riband; amount:   1; TF: 0.000012
 word:            folk; amount:   1; TF: 0.000012
 word:         arcades; amount:   1; TF: 0.000012
-word:         license; amount:  14; TF: 0.000168
+word:         license; amount:  16; TF: 0.000192
 word:        listened; amount:   5; TF: 0.000060
 word:            fond; amount:  13; TF: 0.000156
-word:          dorian; amount: 428; TF: 0.005126
+word:          dorian; amount: 430; TF: 0.005150
 word:       rebellion; amount:   2; TF: 0.000024
 word:   philanthropic; amount:   1; TF: 0.000012
 word:            food; amount:   1; TF: 0.000012
@@ -6014,7 +5945,6 @@ word:            sham; amount:   1; TF: 0.000012
 word:            shan; amount:   5; TF: 0.000060
 word:       happiness; amount:   7; TF: 0.000084
 word:         sensual; amount:   4; TF: 0.000048
-word:            tHAT; amount:   2; TF: 0.000024
 word:            duty; amount:   5; TF: 0.000060
 word:          strain; amount:   1; TF: 0.000012
 word:         sneered; amount:   3; TF: 0.000036
@@ -6037,7 +5967,6 @@ word:          untidy; amount:   1; TF: 0.000012
 word:          joyous; amount:   1; TF: 0.000012
 word:            ship; amount:   3; TF: 0.000036
 word:        bankrupt; amount:   3; TF: 0.000036
-word:            tHIS; amount:   5; TF: 0.000060
 word:         lionize; amount:   1; TF: 0.000012
 word:          wanton; amount:   1; TF: 0.000012
 word:      accustomed; amount:   2; TF: 0.000024
@@ -6057,7 +5986,7 @@ word:      asceticism; amount:   1; TF: 0.000012
 word:          faring; amount:   1; TF: 0.000012
 word:            shod; amount:   1; TF: 0.000012
 word:         beaming; amount:   1; TF: 0.000012
-word:         express; amount:   5; TF: 0.000060
+word:         express; amount:   6; TF: 0.000072
 word:            shop; amount:   3; TF: 0.000036
 word:            shot; amount:  11; TF: 0.000132
 word:           drawn; amount:   6; TF: 0.000072
@@ -6070,14 +5999,13 @@ word:        remained; amount:   2; TF: 0.000024
 word:           faith; amount:   2; TF: 0.000024
 word:       flickered; amount:   2; TF: 0.000024
 word:       sensitive; amount:   1; TF: 0.000012
-word:            eVEN; amount:   1; TF: 0.000012
 word:          travel; amount:   1; TF: 0.000012
 word:          jumped; amount:   3; TF: 0.000036
 word:          imogen; amount:   4; TF: 0.000048
 word:       exquisite; amount:  30; TF: 0.000359
 word:        porphyry; amount:   1; TF: 0.000012
 word:            shun; amount:   1; TF: 0.000012
-word:           eBook; amount:  15; TF: 0.000180
+word:            shut; amount:   7; TF: 0.000084
 word:          comedy; amount:   1; TF: 0.000012
 word:         apology; amount:   2; TF: 0.000024
 word:      obligation; amount:   1; TF: 0.000012
@@ -6103,7 +6031,7 @@ word:         capulet; amount:   2; TF: 0.000024
 word:      displaying; amount:   4; TF: 0.000048
 word:      christened; amount:   1; TF: 0.000012
 word:          ardent; amount:   1; TF: 0.000012
-word:           owner; amount:   4; TF: 0.000048
+word:           owner; amount:   5; TF: 0.000060
 word:        epigrams; amount:   1; TF: 0.000012
 word:         topazes; amount:   1; TF: 0.000012
 word:         pointed; amount:   5; TF: 0.000060
@@ -6157,7 +6085,6 @@ word:          patron; amount:   1; TF: 0.000012
 word:       perplexed; amount:   1; TF: 0.000012
 word:         burning; amount:   8; TF: 0.000096
 word:            sing; amount:   3; TF: 0.000036
-word:      fOUNDATION; amount:   1; TF: 0.000012
 word:  ecclesiastical; amount:   1; TF: 0.000012
 word:         scented; amount:   5; TF: 0.000060
 word:            sins; amount:  27; TF: 0.000323
@@ -6200,7 +6127,6 @@ word:         expense; amount:   2; TF: 0.000024
 word:           quiet; amount:   3; TF: 0.000036
 word:         emerged; amount:   1; TF: 0.000012
 word:     resolutions; amount:   3; TF: 0.000036
-word:          bEFORE; amount:   1; TF: 0.000012
 word:      artificial; amount:   3; TF: 0.000036
 word:           shell; amount:   4; TF: 0.000048
 word:        contempt; amount:   5; TF: 0.000060
@@ -6262,7 +6188,6 @@ word:          myself; amount:  47; TF: 0.000563
 word:         disgust; amount:   2; TF: 0.000024
 word:        luncheon; amount:   1; TF: 0.000012
 word:           round; amount:  80; TF: 0.000958
-word:            gRAY; amount:   2; TF: 0.000024
 word:        straight; amount:  10; TF: 0.000120
 word:         clearly; amount:   2; TF: 0.000024
 word:           fling; amount:   2; TF: 0.000024
@@ -6357,7 +6282,7 @@ word:        floating; amount:   3; TF: 0.000036
 word:         granite; amount:   1; TF: 0.000012
 word:          wouldn; amount:   4; TF: 0.000048
 word:         tussock; amount:   1; TF: 0.000012
-word:     replacement; amount:   4; TF: 0.000048
+word:     replacement; amount:   5; TF: 0.000060
 word:         filippo; amount:   1; TF: 0.000012
 word:        stirring; amount:   4; TF: 0.000048
 word:   contributions; amount:   2; TF: 0.000024
@@ -6483,6 +6408,7 @@ word:          superb; amount:   1; TF: 0.000012
 word:           easel; amount:   1; TF: 0.000012
 word:          behave; amount:   1; TF: 0.000012
 word:       stoutness; amount:   1; TF: 0.000012
+word:     distributor; amount:   1; TF: 0.000012
 word:           dress; amount:  18; TF: 0.000216
 word:        imagines; amount:   1; TF: 0.000012
 word:       interfere; amount:   3; TF: 0.000036
@@ -6497,7 +6423,7 @@ word:            slow; amount:   6; TF: 0.000072
 word:        generous; amount:   2; TF: 0.000024
 word:       bothering; amount:   1; TF: 0.000012
 word:          strewn; amount:   1; TF: 0.000012
-word:           wilde; amount:   4; TF: 0.000048
+word:           wilde; amount:   5; TF: 0.000060
 word:       democracy; amount:   1; TF: 0.000012
 word:          extent; amount:   2; TF: 0.000024
 word:        jacinths; amount:   1; TF: 0.000012
@@ -6597,8 +6523,6 @@ word:           sorts; amount:   2; TF: 0.000024
 word:       audacious; amount:   1; TF: 0.000012
 word:     theologians; amount:   1; TF: 0.000012
 word:            wave; amount:   2; TF: 0.000024
-word:            kIND; amount:   1; TF: 0.000012
-word:        pROVIDED; amount:   1; TF: 0.000012
 word:        thinning; amount:   1; TF: 0.000012
 word:          sooner; amount:   5; TF: 0.000060
 word:       wonderful; amount:  58; TF: 0.000695
@@ -6635,7 +6559,7 @@ word:      bargaining; amount:   1; TF: 0.000012
 word:         epigram; amount:   1; TF: 0.000012
 word:          praise; amount:   2; TF: 0.000024
 word:          taught; amount:  13; TF: 0.000156
-word:            full; amount:  27; TF: 0.000323
+word:            full; amount:  29; TF: 0.000347
 word:            horn; amount:   1; TF: 0.000012
 word:          warned; amount:   1; TF: 0.000012
 word:            hose; amount:   2; TF: 0.000024
@@ -6790,7 +6714,6 @@ word:          hebrew; amount:   1; TF: 0.000012
 word:            sobs; amount:   1; TF: 0.000012
 word:       calumnies; amount:   1; TF: 0.000012
 word:            cape; amount:   2; TF: 0.000024
-word:            vIII; amount:   1; TF: 0.000012
 word:           parma; amount:   1; TF: 0.000012
 word:         cadence; amount:   2; TF: 0.000024
 word:            soda; amount:   2; TF: 0.000024
@@ -6860,7 +6783,6 @@ word:          petals; amount:   5; TF: 0.000060
 word:   personalities; amount:   2; TF: 0.000024
 word:        wondered; amount:  12; TF: 0.000144
 word:          afford; amount:   4; TF: 0.000048
-word:       gUTENBERG; amount:   4; TF: 0.000048
 word:         longing; amount:   3; TF: 0.000036
 word:           ennui; amount:   3; TF: 0.000036
 word:            sort; amount:  22; TF: 0.000263
@@ -6869,7 +6791,6 @@ word:       decorated; amount:   3; TF: 0.000036
 word:      prophesied; amount:   1; TF: 0.000012
 word:       precipice; amount:   1; TF: 0.000012
 word:        sequence; amount:   1; TF: 0.000012
-word:         pURPOSE; amount:   1; TF: 0.000012
 word:         conduct; amount:   1; TF: 0.000012
 word:       principal; amount:   2; TF: 0.000024
 word:          reward; amount:   1; TF: 0.000012

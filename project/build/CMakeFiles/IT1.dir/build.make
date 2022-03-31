@@ -60,15 +60,15 @@ include CMakeFiles/IT1.dir/flags.make
 CMakeFiles/IT1.dir/main.c.o: CMakeFiles/IT1.dir/flags.make
 CMakeFiles/IT1.dir/main.c.o: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/IT1.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1.dir/main.c.o   -c /home/aint/park/c1/C2/project/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -lm -o CMakeFiles/IT1.dir/main.c.o   -c /home/aint/park/c1/C2/project/main.c
 
 CMakeFiles/IT1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IT1.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aint/park/c1/C2/project/main.c > CMakeFiles/IT1.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -lm -E /home/aint/park/c1/C2/project/main.c > CMakeFiles/IT1.dir/main.c.i
 
 CMakeFiles/IT1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IT1.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aint/park/c1/C2/project/main.c -o CMakeFiles/IT1.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -lm -S /home/aint/park/c1/C2/project/main.c -o CMakeFiles/IT1.dir/main.c.s
 
 # Object files for target IT1
 IT1_OBJECTS = \

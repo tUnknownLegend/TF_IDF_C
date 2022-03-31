@@ -179,6 +179,33 @@ ex.c.s:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/ex.c.s
 .PHONY : ex.c.s
 
+get_idf.o: get_idf.c.o
+
+.PHONY : get_idf.o
+
+# target to build an object file
+get_idf.c.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_idf.c.o
+.PHONY : get_idf.c.o
+
+get_idf.i: get_idf.c.i
+
+.PHONY : get_idf.i
+
+# target to preprocess a source file
+get_idf.c.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_idf.c.i
+.PHONY : get_idf.c.i
+
+get_idf.s: get_idf.c.s
+
+.PHONY : get_idf.s
+
+# target to generate assembly for a file
+get_idf.c.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/get_idf.c.s
+.PHONY : get_idf.c.s
+
 get_metr.o: get_metr.c.o
 
 .PHONY : get_metr.o
@@ -221,6 +248,9 @@ help:
 	@echo "... ex.o"
 	@echo "... ex.i"
 	@echo "... ex.s"
+	@echo "... get_idf.o"
+	@echo "... get_idf.i"
+	@echo "... get_idf.s"
 	@echo "... get_metr.o"
 	@echo "... get_metr.i"
 	@echo "... get_metr.s"

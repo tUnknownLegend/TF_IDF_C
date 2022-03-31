@@ -8,6 +8,8 @@
 
 ../include/def.h
 
+../include/get_idf.h
+
 ../include/get_metr.h
 stdio.h
 -
@@ -25,6 +27,8 @@ def.h
 /home/aint/park/c1/C2/project/def.h
 get_metr.h
 /home/aint/park/c1/C2/project/get_metr.h
+get_idf.h
+/home/aint/park/c1/C2/project/get_idf.h
 stdio.h
 -
 string.h

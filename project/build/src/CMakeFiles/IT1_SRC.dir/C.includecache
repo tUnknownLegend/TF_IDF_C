@@ -36,6 +36,20 @@ stdlib.h
 time.h
 -
 
+/home/aint/park/c1/C2/project/src/get_idf.c
+../include/struct.h
+/home/aint/park/c1/C2/project/include/struct.h
+../include/def.h
+/home/aint/park/c1/C2/project/include/def.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+math.h
+-
+
 /home/aint/park/c1/C2/project/src/get_metr.c
 ../include/calc_hash.h
 /home/aint/park/c1/C2/project/include/calc_hash.h
@@ -50,5 +64,7 @@ string.h
 stdlib.h
 -
 ctype.h
+-
+math.h
 -
 

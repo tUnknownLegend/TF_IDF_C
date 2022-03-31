@@ -5,6 +5,12 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <math.h>
+
+void get_lowercase(unsigned char* str) {
+	for (int i = 0; str[i]; ++i)
+		str[i] = tolower(str[i]);
+}
 
 int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 	unsigned char buffer[SIZE_OF_WORD] = "-";
@@ -17,6 +23,8 @@ int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 		fprintf(err_file, "Failed to open file\n");
 	}
 	*/
+	//int ytu = log(5);
+	//fprintf(out_file, "get_metr: %d", ytu);
 
 	unsigned int curr_hash = 0;
 	unsigned int words_counter = 0;
@@ -31,7 +39,8 @@ int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 	while (fscanf(input_file, "%29[a-zA-Z]", buffer) == 1) { // fix for large words is needed // %29[a-zA-Z]
 		//sscanf(buffer, "%29[a-zA-Z]", buff);
 		//strcpy(buffer, buff);  //  FIX!
-		buffer[0] = tolower(buffer[0]);  //  lowercase fix
+		//buffer[0] = tolower(buffer[0]);  //  lowercase fix
+		get_lowercase(buffer);
 		curr_hash = calc_hash(buffer); //  fix?
 		//  fprintf(out_file, "hash: %d\n", curr_hash);
 		memcpy(tf_rec[curr_hash].str, buffer, SIZE_OF_WORD);
