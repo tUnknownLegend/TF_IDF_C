@@ -10,8 +10,14 @@
 #include <ctype.h>
 #include <stdbool.h>
 #include <errno.h>
+#include <sys/mman.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
+#ifndef MAX
 #define MAX(X, Y) (((X) > (Y)) ? (X) : (Y))
+#endif
 
 // collision fix is needed
 int main() {
@@ -19,6 +25,7 @@ int main() {
 	char buffer[SIZE_OF_WORD] = "-"; //  fix for large words is needed
 	//FILE* const out_file = stdout;
 	FILE* const err_file = stderr;
+
 	FILE* const in_file_list = fopen(FILE_IN_LIST, "r");
 	if (in_file_list == NULL) {
 			fprintf(err_file, "%s; fopen // in_file_list\n", strerror(errno));
@@ -29,6 +36,7 @@ int main() {
 	unsigned short amt_of_files = 0;
 	if (fgets(buffer, SIZE_OF_WORD - 1, in_file_list) != NULL) {
 		amt_of_files = strtol(buffer, NULL, 0);
+
 		if (amt_of_files == 0) {
 			fprintf(err_file, "%s; fgets // amt_of_files == 0\n", strerror(errno));
 			err = true;
@@ -39,13 +47,21 @@ int main() {
 	}
 
 	//  alloc arr for idf
-	my_idf* all_idf = calloc((HASH_RANGE), sizeof(my_idf));
+	//my_idf* all_idf = calloc((HASH_RANGE), sizeof(my_idf));
+	my_idf* all_idf = mmap(NULL, sizeof(my_idf) * HASH_RANGE, PROT_READ | PROT_WRITE,
+                               MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 	if (all_idf == NULL) {
 		fprintf(err_file, "%s; calloc // all_idf\n", strerror(errno));
 		err = true;
-	}
+	}	
+
+	printf("errtest%d\n", err);  //  to pass weeror
+
 	for (int i = 0; i < HASH_RANGE; ++i) {
-		all_idf[i].amt = calloc((amt_of_files), sizeof(bool));
+		//all_idf[i].amt = calloc((amt_of_files), sizeof(bool));
+		all_idf[i].amt = mmap(NULL, sizeof(bool) * amt_of_files, PROT_READ | PROT_WRITE,
+                               MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+
 		if (all_idf[i].amt == NULL) {
 			fprintf(err_file, "%s; calloc // all_idf[i].amt\n", strerror(errno));
 			err = true;
@@ -54,38 +70,54 @@ int main() {
 
 	//  alloc arr for tf for each file
 	my_tf** tf_rec = calloc((amt_of_files), sizeof(my_tf*));
+	//my_tf** tf_rec = mmap(NULL, sizeof(my_tf*) * amt_of_files, PROT_READ | PROT_WRITE,
+    //                           MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 	if (tf_rec == NULL) {
 		fprintf(err_file, "%s; calloc // tf_rec\n", strerror(errno));
 		err = true;
 	}
-	for (int i = 0; i < amt_of_files; ++i) {
-		tf_rec[i] = calloc((HASH_RANGE), sizeof(my_tf));
-		if (tf_rec[i] == NULL) {
+
+	char* tf_rec1 = mmap(NULL, sizeof(char) * HASH_RANGE, PROT_READ | PROT_WRITE,
+                             MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+			if (tf_rec1 == MAP_FAILED) {
 			fprintf(err_file, "%s; calloc // my_tf[i]\n", strerror(errno));
 			err = true;
 		}
+/*
+	for (int i = 0; i < amt_of_files; ++i) {
+		//tf_rec[i] = calloc((HASH_RANGE), sizeof(my_tf));
+		char* tf_rec1 = mmap(NULL, sizeof(char) * HASH_RANGE, PROT_READ | PROT_WRITE,
+                             MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+		if (tf_rec1 == MAP_FAILED) {
+			fprintf(err_file, "%s; calloc // my_tf[i]\n", strerror(errno));
+			err = true;
+		}}
+
 		for (int j = 0; j < HASH_RANGE; ++j) {
-			tf_rec[i][j].str = malloc(sizeof(unsigned char) * (SIZE_OF_WORD));
-			if (tf_rec[i][j].str == NULL) {
+			//tf_rec[i][j].str = malloc(sizeof(unsigned char) * (SIZE_OF_WORD));
+			tf_rec[i][j].str = mmap(NULL, sizeof(unsigned char) * SIZE_OF_WORD, PROT_READ | PROT_WRITE,
+                               MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+			if (tf_rec[i][j].str == MAP_FAILED) {
 				fprintf(err_file, "%s; malloc // my_tf[i][j].str\n", strerror(errno));
 				err = true;
 			}
 		}
 	}	
 
-	/* tf */
+*/	/* tf 
 
 	char* temp_buf = malloc(sizeof(char) * (SIZE_OF_WORD + MAX(strlen(PATH_TO_FILES), strlen(PATH_TO_OUT_FILES))));  // fix for large words is needed
-		if (temp_buf == NULL) {
-			fprintf(err_file, "%s; malloc // temp_buf\n", strerror(errno));
-			err = true;
-		}
+	if (temp_buf == NULL) {
+		fprintf(err_file, "%s; malloc // temp_buf\n", strerror(errno));
+		err = true;
+	}
+
 	temp_buf[0] = '\0';
 
 	if (err == false) {
 		FILE* file_for_get = NULL;
 		//  get names of files
-		for (int i = 0; i < amt_of_files; ++i) {  // amt_of_files
+		for (int i = 0; i < amt_of_files; ++i) {
 			if (fgets(buffer, SIZE_OF_WORD - 1, in_file_list) != NULL) {
 				//  getting path to open
 				strcat(temp_buf, PATH_TO_FILES);
@@ -124,9 +156,13 @@ int main() {
 		err = true;		
 	}
 
-	/* end tf */
+	 end tf */
 
-	/* idf + tf-idf */
+
+
+
+
+	/* idf + tf-idf 
 
 	if (err == false) {
 		bool check_idf[HASH_RANGE] = {false};
@@ -190,26 +226,40 @@ int main() {
 	free(temp_buf);
 	temp_buf = NULL;
 
-	/* end idf */
+	 end idf */
 
-	//  free
+	/*  free  
+
 	for (int i = 0; i < HASH_RANGE; ++i){
-		free(all_idf[i].amt);
-		all_idf[i].amt = NULL;
+
+	    if (munmap(all_idf[i].amt, sizeof(bool) * amt_of_files)) {
+	        fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
+	    }		
 	}
-	free (all_idf);
-	all_idf = NULL;
+
+    if (munmap(all_idf, sizeof(my_idf) * HASH_RANGE)) {
+        fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
+    }	
 
 	for (int i = 0; i < amt_of_files; ++i) {
+
 		for (int j = 0; j < HASH_RANGE; ++j){
-			free(tf_rec[i][j].str);
-			tf_rec[i][j].str = NULL;
+
+		    if (munmap(tf_rec[i][j].str, sizeof(unsigned char) * SIZE_OF_WORD)) {
+		        fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
+		    }		
 		}
-		free(tf_rec[i]);
-		tf_rec[i] = NULL;
-	}	
-	free(tf_rec);
-	tf_rec = NULL;
+
+	    if (munmap(tf_rec[i], sizeof(my_tf) * HASH_RANGE)) {
+	        fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
+	    }
+	}
+
+	if (munmap(tf_rec, sizeof(my_tf*) * amt_of_files)) {
+    	fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
+    }
+
+      end free  */
 
 	return 0;
 }

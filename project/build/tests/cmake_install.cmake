@@ -1,4 +1,4 @@
-# Install script for directory: /home/aint/park/c1/C2/project/tests
+# Install script for directory: /home/aint/park/c1/CC2/project/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

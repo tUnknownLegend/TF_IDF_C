@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/aint/park/c1/C2/project/main.c" "/home/aint/park/c1/C2/project/build/CMakeFiles/IT1.dir/main.c.o"
+  "/home/aint/park/c1/CC2/project/main.c" "/home/aint/park/c1/CC2/project/build/CMakeFiles/IT1.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/aint/park/c1/C2/project/build/src/CMakeFiles/IT1_SRC.dir/DependInfo.cmake"
+  "/home/aint/park/c1/CC2/project/build/src/CMakeFiles/IT1_SRC.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

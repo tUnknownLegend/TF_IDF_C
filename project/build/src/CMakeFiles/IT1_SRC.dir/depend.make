@@ -4,8 +4,7 @@
 src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o: ../include/calc_hash.h
 src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o: ../src/calc_hash.c
 
-src/CMakeFiles/IT1_SRC.dir/ex.c.o: ../include/ex.h
-src/CMakeFiles/IT1_SRC.dir/ex.c.o: ../src/ex.c
+src/CMakeFiles/IT1_SRC.dir/create_shared.c.o: ../src/create_shared.c
 
 src/CMakeFiles/IT1_SRC.dir/get_idf.c.o: ../include/def.h
 src/CMakeFiles/IT1_SRC.dir/get_idf.c.o: ../include/struct.h

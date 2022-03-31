@@ -6,41 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/aint/park/c1/C2/project/include/calc_hash.h
+/home/aint/park/c1/CC2/project/include/calc_hash.h
 
-/home/aint/park/c1/C2/project/include/def.h
+/home/aint/park/c1/CC2/project/include/def.h
 
-/home/aint/park/c1/C2/project/include/ex.h
-stdlib.h
--
-stdio.h
--
-
-/home/aint/park/c1/C2/project/include/struct.h
+/home/aint/park/c1/CC2/project/include/struct.h
 stdbool.h
 -
 stddef.h
 -
 
-/home/aint/park/c1/C2/project/src/calc_hash.c
+/home/aint/park/c1/CC2/project/src/calc_hash.c
 ../include/calc_hash.h
-/home/aint/park/c1/C2/project/include/calc_hash.h
+/home/aint/park/c1/CC2/project/include/calc_hash.h
 stdio.h
 -
 
-/home/aint/park/c1/C2/project/src/ex.c
-../include/ex.h
-/home/aint/park/c1/C2/project/include/ex.h
+/home/aint/park/c1/CC2/project/src/create_shared.c
+stdio.h
+-
 stdlib.h
 -
-time.h
+sys/mman.h
 -
 
-/home/aint/park/c1/C2/project/src/get_idf.c
+/home/aint/park/c1/CC2/project/src/get_idf.c
 ../include/struct.h
-/home/aint/park/c1/C2/project/include/struct.h
+/home/aint/park/c1/CC2/project/include/struct.h
 ../include/def.h
-/home/aint/park/c1/C2/project/include/def.h
+/home/aint/park/c1/CC2/project/include/def.h
 stdio.h
 -
 stdlib.h
@@ -50,13 +44,13 @@ ctype.h
 math.h
 -
 
-/home/aint/park/c1/C2/project/src/get_metr.c
+/home/aint/park/c1/CC2/project/src/get_metr.c
 ../include/calc_hash.h
-/home/aint/park/c1/C2/project/include/calc_hash.h
+/home/aint/park/c1/CC2/project/include/calc_hash.h
 ../include/struct.h
-/home/aint/park/c1/C2/project/include/struct.h
+/home/aint/park/c1/CC2/project/include/struct.h
 ../include/def.h
-/home/aint/park/c1/C2/project/include/def.h
+/home/aint/park/c1/CC2/project/include/def.h
 stdio.h
 -
 string.h
@@ -68,11 +62,11 @@ ctype.h
 math.h
 -
 
-/home/aint/park/c1/C2/project/src/get_tf_idf.c
+/home/aint/park/c1/CC2/project/src/get_tf_idf.c
 ../include/struct.h
-/home/aint/park/c1/C2/project/include/struct.h
+/home/aint/park/c1/CC2/project/include/struct.h
 ../include/def.h
-/home/aint/park/c1/C2/project/include/def.h
+/home/aint/park/c1/CC2/project/include/def.h
 stdio.h
 -
 stdlib.h
@@ -80,11 +74,11 @@ stdlib.h
 ctype.h
 -
 
-/home/aint/park/c1/C2/project/src/tf_idf_top_5.c
+/home/aint/park/c1/CC2/project/src/tf_idf_top_5.c
 ../include/struct.h
-/home/aint/park/c1/C2/project/include/struct.h
+/home/aint/park/c1/CC2/project/include/struct.h
 ../include/def.h
-/home/aint/park/c1/C2/project/include/def.h
+/home/aint/park/c1/CC2/project/include/def.h
 stdio.h
 -
 stdlib.h

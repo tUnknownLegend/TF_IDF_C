@@ -14,41 +14,24 @@ void get_lowercase(unsigned char* str) {
 
 int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 	unsigned char buffer[SIZE_OF_WORD] = "-";
-	//unsigned char buff[SIZE_OF_WORD] = "-";
-	FILE* out_file = fopen("../logs/get_metr.log", "a+");
-	FILE* err_file = stderr;
-
-	/*
-	if ((input_file = fopen(input_file, "r")) == NULL) {
-		fprintf(err_file, "Failed to open file\n");
-	}
-	*/
-	//int ytu = log(5);
-	//fprintf(out_file, "get_metr: %d", ytu);
+	//  FILE* out_file = fopen("../logs/get_metr.log", "a+");
 
 	unsigned int curr_hash = 0;
 	unsigned int words_counter = 0;
 
-	fprintf(out_file, "______________________________\n*START OF THE FILE %d*\n______________________________\n", file_ind);
+	//  fprintf(out_file, "______________________________\n*START OF THE FILE %d*\n______________________________\n", file_ind);
 
    	fscanf(input_file, "%*[^a-zA-Z]");
 
-    //  fscanf(input_file, "%29s", buffer);
-    //  fprintf(out_file, "%s\n", buffer);
-
 	while (fscanf(input_file, "%29[a-zA-Z]", buffer) == 1) { // fix for large words is needed // %29[a-zA-Z]
-		//sscanf(buffer, "%29[a-zA-Z]", buff);
-		//strcpy(buffer, buff);  //  FIX!
-		//buffer[0] = tolower(buffer[0]);  //  lowercase fix
 		get_lowercase(buffer);
 		curr_hash = calc_hash(buffer); //  fix?
-		//  fprintf(out_file, "hash: %d\n", curr_hash);
 		memcpy(tf_rec[curr_hash].str, buffer, SIZE_OF_WORD);
-		tf_rec[curr_hash].amt += 1;
-		//  fprintf(out_file, "%s ", buffer);
-    	//  fprintf(out_file, "%s ", tf_rec[curr_hash].str);
-    	fscanf(input_file, "%*[^a-zA-Z]");
+
+    	tf_rec[curr_hash].amt += 1;
     	++words_counter;
+
+    	fscanf(input_file, "%*[^a-zA-Z]");
 
     	//  idf
     	all_idf[curr_hash].amt[file_ind] = true;
@@ -60,13 +43,13 @@ int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 
 		if (tf_rec[i].amt > 0) {
 			tf_rec[i].tf = (double)tf_rec[i].amt / (double)words_counter;
-    		fprintf(out_file, "word: %15s; amount: %3d; TF: %f\n", tf_rec[i].str, tf_rec[i].amt, tf_rec[i].tf);
+    		//  fprintf(out_file, "word: %15s; amount: %3d; TF: %f\n", tf_rec[i].str, tf_rec[i].amt, tf_rec[i].tf);
 		}
 	}
 
-	fprintf(out_file, "-------------------------------\namt of words: %d\n", words_counter);
+	//  fprintf(out_file, "-------------------------------\namt of words: %d\n", words_counter);
 
-	fclose(out_file);
+	//  fclose(out_file);
 
 	return 1;
 }

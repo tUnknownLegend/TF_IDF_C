@@ -1,4 +1,4 @@
-# Install script for directory: /home/aint/park/c1/C2/project
+# Install script for directory: /home/aint/park/c1/CC2/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/aint/park/c1/C2/project/build/src/cmake_install.cmake")
-  include("/home/aint/park/c1/C2/project/build/tests/cmake_install.cmake")
+  include("/home/aint/park/c1/CC2/project/build/src/cmake_install.cmake")
+  include("/home/aint/park/c1/CC2/project/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aint/park/c1/C2/project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aint/park/c1/CC2/project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

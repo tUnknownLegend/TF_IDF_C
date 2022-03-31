@@ -6,5 +6,5 @@ C_FLAGS = -fprofile-arcs -ftest-coverage -fPIC -O0
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/aint/park/c1/C2/project/src/include 
+C_INCLUDES = -I/home/aint/park/c1/CC2/project/src/include 
 

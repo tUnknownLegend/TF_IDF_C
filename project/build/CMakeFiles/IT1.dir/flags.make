@@ -6,7 +6,7 @@ C_FLAGS = -Wall -Wpedantic -Wextra -Werror -lm
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/aint/park/c1/C2/project/include -I/home/aint/park/c1/C2/project/src 
+C_INCLUDES = -I/home/aint/park/c1/CC2/project/include -I/home/aint/park/c1/CC2/project/src 
 
 # Custom options: CMakeFiles/IT1.dir/main.c.o_OPTIONS = -lm
 

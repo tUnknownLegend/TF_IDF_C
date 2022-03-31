@@ -15,7 +15,8 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-valgrind --tool=memcheck --leak-check=yes ./IT1
+#valgrind --tool=memcheck --leak-check=yes ./IT1
+./IT1
 cd ./tests
 #./test_IT1
 #cd ..

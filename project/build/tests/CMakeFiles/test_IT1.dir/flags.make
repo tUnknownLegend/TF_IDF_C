@@ -6,5 +6,5 @@ CXX_FLAGS = -fprofile-arcs -ftest-coverage -O0   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/aint/park/c1/C2/project/include -I/home/aint/park/c1/C2/project/src 
+CXX_INCLUDES = -I/home/aint/park/c1/CC2/project/include -I/home/aint/park/c1/CC2/project/src 
 
