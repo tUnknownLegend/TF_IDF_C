@@ -6,6 +6,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
+#include <sys/mman.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
 
 void get_lowercase(unsigned char* str) {
 	for (int i = 0; str[i]; ++i)

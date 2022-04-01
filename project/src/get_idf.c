@@ -18,12 +18,12 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 	bool check_idf = false;
 	unsigned short all_amt_idf = 0;
 
-	for (int k = 0; k < PID_AMT_HASH; ++k) {//PID_AMT_HASH
-		printf("pre fork // %d\n", k);
+	for (int k = 0; k < PID_AMT_HASH; ++k) {
+		//printf("pre fork // %d\n", k);
 		pid[k] = fork();
 		if (pid[k] == -1)
 			printf("error, fork // get_idf\n");
-		printf("fork // %d\n", k);
+		//printf("fork // %d\n", k);
 		if (pid[k] == 0) {
 
 			for (int i = k * range_multipl; i < (k + 1) * range_multipl; ++i) {
@@ -59,7 +59,7 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 		waitpid(pid[k], &status, 0);
 		if (!WIFEXITED(status))
 			printf("error, pid // get_idf\n");
-		printf("exit code: %d // get_idf\n", WIFEXITED(status));
+		//printf("exit code: %d // get_idf\n", WIFEXITED(status));
 	}
 
 /*	for (int i = 0; i < (1) * range_multipl; ++i)
