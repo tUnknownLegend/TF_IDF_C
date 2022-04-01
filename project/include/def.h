@@ -7,5 +7,7 @@
 #define HASH_RANGE 65534
 #define PATH_TO_FILES "../../files/"
 #define PATH_TO_OUT_FILES "../../files_report/"
+#define PID_AMT_HASH 7
+
 
 #endif  //  PROJECT_DEF_H_

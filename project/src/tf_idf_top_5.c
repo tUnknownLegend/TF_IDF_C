@@ -5,7 +5,7 @@
 #include <ctype.h>
 
 int tf_idf_top_5(my_tf* tf_rec, int* top_5_ind) {
-	FILE* out_file = fopen("../logs/tf_idf_top_5.log", "a+");
+	//FILE* out_file = fopen("../logs/tf_idf_top_5.log", "a+");
 	
 	double top_5_val[5] = {-1};
 
@@ -50,7 +50,7 @@ int tf_idf_top_5(my_tf* tf_rec, int* top_5_ind) {
 		}
 	}
 
-	fclose(out_file);
+	//fclose(out_file);
 
 	return 1;
 }
