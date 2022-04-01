@@ -35,10 +35,9 @@ jobs:
         run: bash ./scr/val_test.sh
       - name: report  
         run: bash ./scr/report.sh
-      - name: Upload coverage to Codecov
-        run: |
-          curl -Os https://uploader.codecov.io/latest/linux/codecov
-          chmod +x codecov ./codecov
+      - name: Coveralls
+        uses: coverallsapp/github-action@debug
+        with: github-token: ${{ secrets.GITHUB_TOKEN }}
 
   check:
     runs-on: ubuntu-latest
