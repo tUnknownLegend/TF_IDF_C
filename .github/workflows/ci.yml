@@ -39,6 +39,7 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+        run: coveralls --exclude lib --exclude tests --gcov-options '\-lp'
 
   check:
     runs-on: ubuntu-latest
