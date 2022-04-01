@@ -36,7 +36,7 @@ jobs:
       - name: report  
         run: bash ./scr/report.sh
       - name: Coveralls
-        uses: coverallsapp/github-action@debug
+        uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
