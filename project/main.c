@@ -126,14 +126,14 @@ int main() {
 
 	/* end tf */
 
-	/* idf */
+	/* idf + tf-idf */
 
 	if (err == false) {
-		bool check_idf[HASH_RANGE] = {false};
-		int arr_ind[HASH_RANGE] = {0};
+		//bool check_idf[HASH_RANGE] = {false};
+		//int arr_ind[HASH_RANGE] = {0};
 
 		//  calc idf
-		get_idf(all_idf, check_idf, arr_ind, amt_of_files);
+		get_idf(all_idf, amt_of_files);
 		//  calc tf_idf
 		get_tf_idf(tf_rec, all_idf, amt_of_files);
 
@@ -157,7 +157,7 @@ int main() {
 				tf_idf_top_5(tf_rec[i], top_5_ind);
 				fprintf(file_out, "TOP 5:\n");
 
-				//  check if there non zeros TF-IDFs
+				//  check if there at least then 5 TF-IDFs
 				if (top_5_ind[0] >= 0)
 					for (int k = 0; k < 5; ++k) {
 						//printf("%d\n", top_5_ind[k]);

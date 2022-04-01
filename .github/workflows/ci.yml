@@ -1,0 +1,51 @@
+on: push
+
+jobs:
+  linters:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1      
+    - run: pip install cpplint
+    - name: installing
+      run: |
+        sudo apt-get install cppcheck
+        sudo apt-get install clang-tidy
+    - name: linters
+      run: |
+        make check     
+
+  build_val:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./scr/init.sh
+      - name: building
+        run: |
+          bash ./scr/build.sh
+          ls ${{ github.workspace }}
+      - name: tests
+        run: |
+          ls ${{ github.workspace }}
+          bash ./scr/test.sh 
+          ls ${{ github.workspace }}   
+      - name: valgrind tests
+        run: bash ./scr/val_test.sh
+      - name: report  
+        run: bash ./scr/report.sh
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+        token: ${{ secrets.YOUR_SECRET_TOKEN }}
+
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./scr/init.sh
+      - name: valgrind on prebuild exe
+        run: valgrind --tool=memcheck --leak-check=yes ./pre_build

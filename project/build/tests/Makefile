@@ -125,32 +125,59 @@ test_IT1/fast:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/build
 .PHONY : test_IT1/fast
 
-test1.o: test1.cpp.o
+get_idf.o: get_idf.cpp.o
 
-.PHONY : test1.o
+.PHONY : get_idf.o
 
 # target to build an object file
-test1.cpp.o:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/test1.cpp.o
-.PHONY : test1.cpp.o
+get_idf.cpp.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_idf.cpp.o
+.PHONY : get_idf.cpp.o
 
-test1.i: test1.cpp.i
+get_idf.i: get_idf.cpp.i
 
-.PHONY : test1.i
+.PHONY : get_idf.i
 
 # target to preprocess a source file
-test1.cpp.i:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/test1.cpp.i
-.PHONY : test1.cpp.i
+get_idf.cpp.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_idf.cpp.i
+.PHONY : get_idf.cpp.i
 
-test1.s: test1.cpp.s
+get_idf.s: get_idf.cpp.s
 
-.PHONY : test1.s
+.PHONY : get_idf.s
 
 # target to generate assembly for a file
-test1.cpp.s:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/test1.cpp.s
-.PHONY : test1.cpp.s
+get_idf.cpp.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_idf.cpp.s
+.PHONY : get_idf.cpp.s
+
+get_metr.o: get_metr.cpp.o
+
+.PHONY : get_metr.o
+
+# target to build an object file
+get_metr.cpp.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o
+.PHONY : get_metr.cpp.o
+
+get_metr.i: get_metr.cpp.i
+
+.PHONY : get_metr.i
+
+# target to preprocess a source file
+get_metr.cpp.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_metr.cpp.i
+.PHONY : get_metr.cpp.i
+
+get_metr.s: get_metr.cpp.s
+
+.PHONY : get_metr.s
+
+# target to generate assembly for a file
+get_metr.cpp.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_metr.cpp.s
+.PHONY : get_metr.cpp.s
 
 # Help Target
 help:
@@ -161,9 +188,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test_IT1"
-	@echo "... test1.o"
-	@echo "... test1.i"
-	@echo "... test1.s"
+	@echo "... get_idf.o"
+	@echo "... get_idf.i"
+	@echo "... get_idf.s"
+	@echo "... get_metr.o"
+	@echo "... get_metr.i"
+	@echo "... get_metr.s"
 .PHONY : help
 
 

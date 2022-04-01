@@ -10,12 +10,6 @@
 
 /home/aint/park/c1/C2/project/include/def.h
 
-/home/aint/park/c1/C2/project/include/ex.h
-stdlib.h
--
-stdio.h
--
-
 /home/aint/park/c1/C2/project/include/struct.h
 stdbool.h
 -
@@ -26,14 +20,6 @@ stddef.h
 ../include/calc_hash.h
 /home/aint/park/c1/C2/project/include/calc_hash.h
 stdio.h
--
-
-/home/aint/park/c1/C2/project/src/ex.c
-../include/ex.h
-/home/aint/park/c1/C2/project/include/ex.h
-stdlib.h
--
-time.h
 -
 
 /home/aint/park/c1/C2/project/src/get_idf.c

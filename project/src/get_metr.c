@@ -15,8 +15,8 @@ void get_lowercase(unsigned char* str) {
 int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 	unsigned char buffer[SIZE_OF_WORD] = "-";
 	//unsigned char buff[SIZE_OF_WORD] = "-";
-	FILE* out_file = fopen("../logs/get_metr.log", "a+");
-	FILE* err_file = stderr;
+	//  FILE* out_file = fopen("../logs/get_metr.log", "a+");
+	//  FILE* err_file = stderr;
 
 	/*
 	if ((input_file = fopen(input_file, "r")) == NULL) {
@@ -29,7 +29,7 @@ int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 	unsigned int curr_hash = 0;
 	unsigned int words_counter = 0;
 
-	fprintf(out_file, "______________________________\n*START OF THE FILE %d*\n______________________________\n", file_ind);
+	//  fprintf(out_file, "______________________________\n*START OF THE FILE %d*\n______________________________\n", file_ind);
 
    	fscanf(input_file, "%*[^a-zA-Z]");
 
@@ -60,13 +60,13 @@ int get_metr(my_tf* tf_rec, my_idf* all_idf, FILE* input_file, int file_ind) {
 
 		if (tf_rec[i].amt > 0) {
 			tf_rec[i].tf = (double)tf_rec[i].amt / (double)words_counter;
-    		fprintf(out_file, "word: %15s; amount: %3d; TF: %f\n", tf_rec[i].str, tf_rec[i].amt, tf_rec[i].tf);
+    		//  fprintf(out_file, "word: %15s; amount: %3d; TF: %f\n", tf_rec[i].str, tf_rec[i].amt, tf_rec[i].tf);
 		}
 	}
 
-	fprintf(out_file, "-------------------------------\namt of words: %d\n", words_counter);
+	//  fprintf(out_file, "-------------------------------\namt of words: %d\n", words_counter);
 
-	fclose(out_file);
+	//  fclose(out_file);
 
 	return 1;
 }

@@ -1,5 +1,4 @@
 #ifndef PROJECT_GET_METR_H_
-
 #include <stdio.h>
 #define PROJECT_GET_METR_H_
 

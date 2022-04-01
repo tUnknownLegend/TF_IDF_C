@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aint/park/c1/C2/project/tests/test1.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/test1.cpp.o"
+  "/home/aint/park/c1/C2/project/tests/get_idf.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/get_idf.cpp.o"
+  "/home/aint/park/c1/C2/project/tests/get_metr.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

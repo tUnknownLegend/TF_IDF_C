@@ -152,33 +152,6 @@ calc_hash.c.s:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/calc_hash.c.s
 .PHONY : calc_hash.c.s
 
-ex.o: ex.c.o
-
-.PHONY : ex.o
-
-# target to build an object file
-ex.c.o:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/ex.c.o
-.PHONY : ex.c.o
-
-ex.i: ex.c.i
-
-.PHONY : ex.i
-
-# target to preprocess a source file
-ex.c.i:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/ex.c.i
-.PHONY : ex.c.i
-
-ex.s: ex.c.s
-
-.PHONY : ex.s
-
-# target to generate assembly for a file
-ex.c.s:
-	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/ex.c.s
-.PHONY : ex.c.s
-
 get_idf.o: get_idf.c.o
 
 .PHONY : get_idf.o
@@ -299,9 +272,6 @@ help:
 	@echo "... calc_hash.o"
 	@echo "... calc_hash.i"
 	@echo "... calc_hash.s"
-	@echo "... ex.o"
-	@echo "... ex.i"
-	@echo "... ex.s"
 	@echo "... get_idf.o"
 	@echo "... get_idf.i"
 	@echo "... get_idf.s"

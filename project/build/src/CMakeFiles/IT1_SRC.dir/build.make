@@ -70,22 +70,9 @@ src/CMakeFiles/IT1_SRC.dir/calc_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IT1_SRC.dir/calc_hash.c.s"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aint/park/c1/C2/project/src/calc_hash.c -o CMakeFiles/IT1_SRC.dir/calc_hash.c.s
 
-src/CMakeFiles/IT1_SRC.dir/ex.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
-src/CMakeFiles/IT1_SRC.dir/ex.c.o: ../src/ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/IT1_SRC.dir/ex.c.o"
-	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/ex.c.o   -c /home/aint/park/c1/C2/project/src/ex.c
-
-src/CMakeFiles/IT1_SRC.dir/ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IT1_SRC.dir/ex.c.i"
-	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aint/park/c1/C2/project/src/ex.c > CMakeFiles/IT1_SRC.dir/ex.c.i
-
-src/CMakeFiles/IT1_SRC.dir/ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IT1_SRC.dir/ex.c.s"
-	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aint/park/c1/C2/project/src/ex.c -o CMakeFiles/IT1_SRC.dir/ex.c.s
-
 src/CMakeFiles/IT1_SRC.dir/get_idf.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
 src/CMakeFiles/IT1_SRC.dir/get_idf.c.o: ../src/get_idf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/IT1_SRC.dir/get_idf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/IT1_SRC.dir/get_idf.c.o"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/get_idf.c.o   -c /home/aint/park/c1/C2/project/src/get_idf.c
 
 src/CMakeFiles/IT1_SRC.dir/get_idf.c.i: cmake_force
@@ -98,7 +85,7 @@ src/CMakeFiles/IT1_SRC.dir/get_idf.c.s: cmake_force
 
 src/CMakeFiles/IT1_SRC.dir/get_metr.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
 src/CMakeFiles/IT1_SRC.dir/get_metr.c.o: ../src/get_metr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/IT1_SRC.dir/get_metr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/IT1_SRC.dir/get_metr.c.o"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/get_metr.c.o   -c /home/aint/park/c1/C2/project/src/get_metr.c
 
 src/CMakeFiles/IT1_SRC.dir/get_metr.c.i: cmake_force
@@ -111,7 +98,7 @@ src/CMakeFiles/IT1_SRC.dir/get_metr.c.s: cmake_force
 
 src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
 src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o: ../src/get_tf_idf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o   -c /home/aint/park/c1/C2/project/src/get_tf_idf.c
 
 src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.i: cmake_force
@@ -124,7 +111,7 @@ src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.s: cmake_force
 
 src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o: src/CMakeFiles/IT1_SRC.dir/flags.make
 src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o: ../src/tf_idf_top_5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o"
 	cd /home/aint/park/c1/C2/project/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o   -c /home/aint/park/c1/C2/project/src/tf_idf_top_5.c
 
 src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.i: cmake_force
@@ -138,7 +125,6 @@ src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.s: cmake_force
 # Object files for target IT1_SRC
 IT1_SRC_OBJECTS = \
 "CMakeFiles/IT1_SRC.dir/calc_hash.c.o" \
-"CMakeFiles/IT1_SRC.dir/ex.c.o" \
 "CMakeFiles/IT1_SRC.dir/get_idf.c.o" \
 "CMakeFiles/IT1_SRC.dir/get_metr.c.o" \
 "CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o" \
@@ -148,14 +134,13 @@ IT1_SRC_OBJECTS = \
 IT1_SRC_EXTERNAL_OBJECTS =
 
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/calc_hash.c.o
-src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/ex.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/get_idf.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/get_metr.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/get_tf_idf.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/tf_idf_top_5.c.o
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/build.make
 src/libIT1_SRC.a: src/CMakeFiles/IT1_SRC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libIT1_SRC.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libIT1_SRC.a"
 	cd /home/aint/park/c1/C2/project/build/src && $(CMAKE_COMMAND) -P CMakeFiles/IT1_SRC.dir/cmake_clean_target.cmake
 	cd /home/aint/park/c1/C2/project/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IT1_SRC.dir/link.txt --verbose=$(VERBOSE)
 

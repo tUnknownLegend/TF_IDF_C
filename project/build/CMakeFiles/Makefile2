@@ -120,7 +120,7 @@ CMakeFiles/IT1.dir/all: src/CMakeFiles/IT1_SRC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IT1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/IT1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 0
 .PHONY : CMakeFiles/IT1.dir/rule
@@ -142,12 +142,12 @@ CMakeFiles/IT1.dir/clean:
 src/CMakeFiles/IT1_SRC.dir/all:
 	$(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/depend
 	$(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target IT1_SRC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target IT1_SRC"
 .PHONY : src/CMakeFiles/IT1_SRC.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/IT1_SRC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/IT1_SRC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aint/park/c1/C2/project/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/IT1_SRC.dir/rule
@@ -169,7 +169,7 @@ src/CMakeFiles/IT1_SRC.dir/clean:
 tests/CMakeFiles/test_IT1.dir/all: src/CMakeFiles/IT1_SRC.dir/all
 	$(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/depend
 	$(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=10,11 "Built target test_IT1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aint/park/c1/C2/project/build/CMakeFiles --progress-num=9,10,11 "Built target test_IT1"
 .PHONY : tests/CMakeFiles/test_IT1.dir/all
 
 # Build rule for subdir invocation for target.
