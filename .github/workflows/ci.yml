@@ -36,9 +36,9 @@ jobs:
       - name: report  
         run: bash ./scr/report.sh
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.YOUR_SECRET_TOKEN }}
+        run: |
+          curl -Os https://uploader.codecov.io/latest/linux/codecov
+          chmod +x codecov ./codecov
 
   check:
     runs-on: ubuntu-latest
