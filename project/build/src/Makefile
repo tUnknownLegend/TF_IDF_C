@@ -152,33 +152,6 @@ calc_hash.c.s:
 	cd /home/aint/park/c1/CC2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/calc_hash.c.s
 .PHONY : calc_hash.c.s
 
-create_shared.o: create_shared.c.o
-
-.PHONY : create_shared.o
-
-# target to build an object file
-create_shared.c.o:
-	cd /home/aint/park/c1/CC2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/create_shared.c.o
-.PHONY : create_shared.c.o
-
-create_shared.i: create_shared.c.i
-
-.PHONY : create_shared.i
-
-# target to preprocess a source file
-create_shared.c.i:
-	cd /home/aint/park/c1/CC2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/create_shared.c.i
-.PHONY : create_shared.c.i
-
-create_shared.s: create_shared.c.s
-
-.PHONY : create_shared.s
-
-# target to generate assembly for a file
-create_shared.c.s:
-	cd /home/aint/park/c1/CC2/project/build && $(MAKE) -f src/CMakeFiles/IT1_SRC.dir/build.make src/CMakeFiles/IT1_SRC.dir/create_shared.c.s
-.PHONY : create_shared.c.s
-
 get_idf.o: get_idf.c.o
 
 .PHONY : get_idf.o
@@ -299,9 +272,6 @@ help:
 	@echo "... calc_hash.o"
 	@echo "... calc_hash.i"
 	@echo "... calc_hash.s"
-	@echo "... create_shared.o"
-	@echo "... create_shared.i"
-	@echo "... create_shared.s"
 	@echo "... get_idf.o"
 	@echo "... get_idf.i"
 	@echo "... get_idf.s"
