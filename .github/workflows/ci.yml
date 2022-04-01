@@ -37,7 +37,8 @@ jobs:
         run: bash ./scr/report.sh
       - name: Coveralls
         uses: coverallsapp/github-action@debug
-          with: github-token: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
   check:
     runs-on: ubuntu-latest
