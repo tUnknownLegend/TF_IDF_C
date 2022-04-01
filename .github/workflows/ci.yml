@@ -39,7 +39,6 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        run: coveralls --exclude lib --exclude tests --gcov-options '\-lm'
       - name: Report code coverage
         uses: zgosalvez/github-actions-report-lcov@v1
         with:
