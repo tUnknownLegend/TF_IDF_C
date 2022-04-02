@@ -1,40 +1,40 @@
-==44271== Memcheck, a memory error detector
-==44271== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==44271== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
-==44271== Command: ./test_IT1
-==44271== 
+==57250== Memcheck, a memory error detector
+==57250== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57250== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==57250== Command: ./test_IT1
+==57250== 
 Running main() from /home/aint/googletest/googletest/src/gtest_main.cc
 [==========] Running 4 tests from 4 test suites.
 [----------] Global test environment set-up.
 [----------] 1 test from get_idf
 [ RUN      ] get_idf.0
-[       OK ] get_idf.0 (106 ms)
-[----------] 1 test from get_idf (112 ms total)
+[       OK ] get_idf.0 (103 ms)
+[----------] 1 test from get_idf (109 ms total)
 
 [----------] 1 test from get_metr
 [ RUN      ] get_metr.0
-[       OK ] get_metr.0 (884 ms)
-[----------] 1 test from get_metr (890 ms total)
+[       OK ] get_metr.0 (866 ms)
+[----------] 1 test from get_metr (872 ms total)
 
 [----------] 1 test from get_tf_idf
 [ RUN      ] get_tf_idf.0
-[       OK ] get_tf_idf.0 (933 ms)
-[----------] 1 test from get_tf_idf (976 ms total)
+[       OK ] get_tf_idf.0 (918 ms)
+[----------] 1 test from get_tf_idf (959 ms total)
 
 [----------] 1 test from tf_idf_top_5
 [ RUN      ] tf_idf_top_5.0
-[       OK ] tf_idf_top_5.0 (3066 ms)
-[----------] 1 test from tf_idf_top_5 (3108 ms total)
+[       OK ] tf_idf_top_5.0 (3037 ms)
+[----------] 1 test from tf_idf_top_5 (3077 ms total)
 
 [----------] Global test environment tear-down
-[==========] 4 tests from 4 test suites ran. (5117 ms total)
+[==========] 4 tests from 4 test suites ran. (5049 ms total)
 [  PASSED  ] 4 tests.
-==44271== 
-==44271== HEAP SUMMARY:
-==44271==     in use at exit: 0 bytes in 0 blocks
-==44271==   total heap usage: 2,228,465 allocs, 2,228,465 frees, 128,856,080 bytes allocated
-==44271== 
-==44271== All heap blocks were freed -- no leaks are possible
-==44271== 
-==44271== For lists of detected and suppressed errors, rerun with: -s
-==44271== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==57250== 
+==57250== HEAP SUMMARY:
+==57250==     in use at exit: 0 bytes in 0 blocks
+==57250==   total heap usage: 2,228,465 allocs, 2,228,465 frees, 128,856,080 bytes allocated
+==57250== 
+==57250== All heap blocks were freed -- no leaks are possible
+==57250== 
+==57250== For lists of detected and suppressed errors, rerun with: -s
+==57250== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

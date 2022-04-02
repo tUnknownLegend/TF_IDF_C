@@ -12,12 +12,14 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 	unsigned short all_amt_idf = 0;
 
 	for (int i = 0; i < HASH_RANGE; ++i) {
+
 		for (int j = 0; j < amt_of_files; ++j)
+			
 			if (all_idf[i].amt[j]) {
 				++all_amt_idf;
 				check_idf = true;
 			}
-			
+
 		if (check_idf)
 			all_idf[i].idf = log(((double)amt_of_files / (double)all_amt_idf));
 		
