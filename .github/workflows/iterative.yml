@@ -1,0 +1,54 @@
+on: pull_request
+
+defaults:
+  run:
+    shell: bash
+    working-directory: ./iterative
+
+jobs:
+  linters:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1      
+    - run: pip install cpplint
+    - name: installing
+      run: |
+        sudo apt-get install cppcheck
+        sudo apt-get install clang-tidy
+    - name: linters
+      run: |
+        make check     
+
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./scr/init.sh
+      - name: building
+        run: |
+          bash ./scr/build.sh
+          ls ${{ github.workspace }}
+      - name: valgrind
+        run: bash ./scr/val.sh
+      - name: tests
+        run: |
+          ls ${{ github.workspace }}
+          bash ./scr/test.sh 
+          ls ${{ github.workspace }} 
+      - name: valgrind tests
+        run: bash ./scr/val_test.sh
+      - name: coverage  
+        run: bash ./scr/report.sh
+      - name: HTML Preview
+        id: html_preview
+        uses: pavi2410/html-preview-action@v2
+        with:
+          html_file: './project/build/report/index.html'
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: ./iterative/project/build/coverage.info
