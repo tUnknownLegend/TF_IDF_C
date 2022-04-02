@@ -52,5 +52,5 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run: |
-          cd ./project/build/
-          coveralls ./coverage.info
+            cd ./project/build/
+            coveralls ./coverage.info
