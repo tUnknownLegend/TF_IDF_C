@@ -33,3 +33,10 @@ jobs:
           ls ${{ github.workspace }}
       - name: valgrind
         run: bash ./scr/val.sh
+      - name: tests
+        run: |
+          ls ${{ github.workspace }}
+          bash ./scr/test.sh 
+          ls ${{ github.workspace }} 
+      - name: valgrind tests
+        run: bash ./scr/val_test.sh
