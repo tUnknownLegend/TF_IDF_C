@@ -15,8 +15,8 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-#valgrind --tool=memcheck --leak-check=yes ./IT1
-./IT1
+valgrind --tool=memcheck --leak-check=yes ./IT1
+#./IT1
 echo "CC2 finshed"
 #cd ./tests
 #./test_IT1

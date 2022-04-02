@@ -10,8 +10,6 @@
 #include <unistd.h>
 
 int get_idf(my_idf* all_idf, int const amt_of_files) {
-	//  FILE* out_file = fopen("../logs/get_idf.log", "a+");
-	//  FILE* err_file = stderr;
 
 	pid_t pid[PID_AMT_HASH] = {-1};
 	int range_multipl = (int)HASH_RANGE / (int)PID_AMT_HASH;
@@ -51,6 +49,7 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 			exit(k);
 			//printf("HEYY // %d\n", k);
 		}
+		check_idf = false;
 	}
 	//  fclose(out_file);
 	int status = 0;

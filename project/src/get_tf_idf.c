@@ -9,7 +9,6 @@
 #include <unistd.h>
 
 int get_tf_idf(my_tf** tf_rec, my_idf const* const all_idf, int const amt_of_files) {
-	//FILE* out_file = fopen("../logs/get_tf_idf.log", "a+");
 
 	//pid_t pid[amt_of_files] = {-1};
 	pid_t* pid = mmap(NULL, sizeof(pid_t) * amt_of_files, PROT_READ | PROT_WRITE,
@@ -47,8 +46,6 @@ int get_tf_idf(my_tf** tf_rec, my_idf const* const all_idf, int const amt_of_fil
 			printf("error, pid // get_tf_idf\n");
 		//printf("exit code: %d // get_idf\n", WIFEXITED(status));
 	}
-
-	//fclose(out_file);
 
 	//free(pid);
 	munmap(pid, sizeof(pid_t) * amt_of_files);

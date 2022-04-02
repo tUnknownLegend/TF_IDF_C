@@ -61,14 +61,6 @@ ctype.h
 -
 math.h
 -
-sys/mman.h
--
-sys/types.h
--
-sys/wait.h
--
-unistd.h
--
 
 /home/aint/park/c1/CC2/project/src/get_tf_idf.c
 ../include/struct.h
