@@ -56,5 +56,5 @@ jobs:
         uses: actions/checkout@v2
       - name: installing
         run: bash ./scr/init.sh
-      - name: valgrind on prebuild exe
-        run: valgrind --tool=memcheck --leak-check=yes ./pre_build
+      - name: compare
+        run: bash ../find_diff.sh
