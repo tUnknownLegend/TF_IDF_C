@@ -1,0 +1,70 @@
+on: push
+
+jobs:
+  linters:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./iterative
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1      
+    - run: pip install cpplint
+      working-directory: ./iterative
+    - name: installing
+      run: |
+        sudo apt-get install cppcheck
+        sudo apt-get install clang-tidy
+      working-directory: ./iterative
+    - name: linters
+      run: |
+        make check     
+      working-directory: ./iterative
+
+  build_val:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./iterative
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./scr/init.sh
+        working-directory: ./iterative
+      - name: building
+        run: |
+          bash ./scr/build.sh
+          ls ${{ github.workspace }}
+        working-directory: ./iterative
+      - name: tests
+        run: |
+          ls ${{ github.workspace }}
+          bash ./scr/test.sh 
+          ls ${{ github.workspace }} 
+        working-directory: ./iterative  
+      - name: valgrind tests
+        run: bash ./scr/val_test.sh
+        working-directory: ./iterative
+      - name: report  
+        run: bash ./scr/report.sh
+        working-directory: ./iterative
+      - name: HTML Preview
+        id: html_preview
+        uses: pavi2410/html-preview-action@v2
+        with:
+          html_file: './project/build/report/index.html'
+        working-directory: ./iterative
+
+
+  check:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./iterative
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./scr/init.sh
+        working-directory: ./iterative
+      - name: valgrind on prebuild exe
+        run: valgrind --tool=memcheck --leak-check=yes ./pre_build
+        working-directory: ./iterative
