@@ -51,12 +51,4 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          run: |
-            cd ./project/build/
-            ls
-            mkdir coverage
-            ls
-            mv ./coverage.info ./coverage/lcov.info
-            ls
-            ls ./coverage
-            coveralls
+          path-to-lcov: ./project/build/coverage.info
