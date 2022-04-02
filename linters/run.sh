@@ -25,7 +25,7 @@ print_header "RUN cppcheck"
 check_log "cppcheck project --enable=warning --inconclusive --error-exitcode=0 -I project/include --suppress=missingIncludeSystem" "\(information\)"
 
 print_header "RUN clang-tidy"
-check_log "clang-tidy project/src/*.c project/include/* -warnings-as-errors=* -header-filter=.* -extra-arg=-std=c99 -- -Iproject/include" "Error (?:reading|while processing)"
+check_log "clang-tidy project/src/*.c -header-filter=.* -extra-arg=-std=gnu99 -- -Iproject/include" "Error (?:reading|while processing)"
 
 #print_header "RUN cppcheck"
 #check_log "cppcheck --verbose  --error-exitcode=0 project/src/*.c project/include/*"

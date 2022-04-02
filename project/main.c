@@ -22,7 +22,6 @@
 int main() {
   bool err = false;  //  error flag
   char buffer[SIZE_OF_WORD] = "-"; //  fix for large words is needed
-  //FILE* const out_file = stdout;
   FILE* const err_file = stderr;
 
   FILE* const in_file_list = fopen(FILE_IN_LIST, "r");
@@ -47,7 +46,6 @@ int main() {
 
 
   //  alloc arr for idf
-  //my_idf* all_idf = calloc((HASH_RANGE), sizeof(my_idf));
   my_idf* all_idf = mmap(NULL, sizeof(my_idf) * HASH_RANGE, PROT_READ | PROT_WRITE,
                                MAP_SHARED | MAP_ANONYMOUS, -1, 0);
   if (all_idf == NULL) {
@@ -57,8 +55,6 @@ int main() {
 
   for (int i = 0; i < HASH_RANGE; ++i) {
     all_idf[i].amt = calloc((amt_of_files), sizeof(bool));
-    //all_idf[i].amt = mmap(NULL, sizeof(bool) * amt_of_files, PROT_READ | PROT_WRITE,
-                           //    MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 
     if (all_idf[i].amt == NULL) {
       fprintf(err_file, "%s; calloc // all_idf[i].amt\n", strerror(errno));
@@ -67,7 +63,6 @@ int main() {
   }  
 
   //  alloc arr for tf for each file
-  //my_tf** tf_rec = calloc((amt_of_files), sizeof(my_tf*));
   my_tf** tf_rec = mmap(NULL, sizeof(my_tf*) * amt_of_files, PROT_READ | PROT_WRITE,
                                MAP_SHARED | MAP_ANONYMOUS, -1, 0);
   if (tf_rec == NULL) {
@@ -76,7 +71,6 @@ int main() {
   }
   
   for (int i = 0; i < amt_of_files; ++i) {
-    //tf_rec[i] = calloc((HASH_RANGE), sizeof(my_tf));
     tf_rec[i] = mmap(NULL, sizeof(my_tf) * HASH_RANGE, PROT_READ | PROT_WRITE,
                              MAP_SHARED | MAP_ANONYMOUS, -1, 0);
     if (tf_rec[i] == MAP_FAILED) {
@@ -87,9 +81,8 @@ int main() {
 
     for (int j = 0; j < HASH_RANGE; ++j) {
       tf_rec[i][j].str = malloc(sizeof(unsigned char) * (SIZE_OF_WORD));
-      //tf_rec[i][j].str = mmap(NULL, sizeof(unsigned char) * SIZE_OF_WORD, PROT_READ | PROT_WRITE,
-      //                         MAP_SHARED | MAP_ANONYMOUS, -1, 0);
-      if (tf_rec[i][j].str == MAP_FAILED) {
+
+      if (tf_rec[i][j].str == NULL) {
         fprintf(err_file, "%s; malloc // my_tf[i][j].str\n", strerror(errno));
         err = true;
       }
@@ -103,10 +96,12 @@ int main() {
       fprintf(err_file, "%s; malloc // temp_buf\n", strerror(errno));
       err = true;
     }
+
   temp_buf[0] = '\0';
 
   if (err == false) {
     FILE* file_for_get = NULL;
+
     //  get names of files
     for (int i = 0; i < amt_of_files; ++i) {  // amt_of_files
       if (fgets(buffer, SIZE_OF_WORD - 1, in_file_list) != NULL) {
@@ -114,7 +109,6 @@ int main() {
         strcat(temp_buf, PATH_TO_FILES);
         strcat(temp_buf, buffer);
         temp_buf[strlen(PATH_TO_FILES) + strlen(buffer) - 1] = '\0';
-        //fprintf(stdout, "%d // %s\n", i, temp_buf);
 
         //  open
         file_for_get = fopen(temp_buf, "r");
@@ -152,9 +146,6 @@ int main() {
   /* idf + tf-idf */
 
   if (err == false) {
-    //bool check_idf[HASH_RANGE] = {false};
-    //int arr_ind[HASH_RANGE] = {0};
-
     //  calc idf
     get_idf(all_idf, amt_of_files);
     //  calc tf_idf
@@ -163,15 +154,15 @@ int main() {
     
     FILE* file_out = NULL;
     int top_5_ind[5] = {0};
-    //file_out = fopen("../../files_report/res_out.txt", "a+");
+
     for (int i = 0; i < amt_of_files; ++i) {
       //  getting path to open
       buffer[0] = '\0';
       sprintf(buffer, "report_%d.txt", i);
       temp_buf[0] = '\0';
+
       strcat(temp_buf, PATH_TO_OUT_FILES);
       strcat(temp_buf, buffer);
-      //fprintf(stdout, "%d // %s\n", i, temp_buf);
 
       //  open
       file_out = fopen(temp_buf, "a+");
@@ -215,13 +206,11 @@ int main() {
 
   /* end idf */
 
-
   for (int i = 0; i < HASH_RANGE; ++i){
     free(all_idf[i].amt);
     all_idf[i].amt = NULL;
   }
-  //free (all_idf);
-  //all_idf = NULL;
+
   if (munmap(all_idf, sizeof(my_idf) * HASH_RANGE)) {
       fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
   }
@@ -231,8 +220,7 @@ int main() {
       free(tf_rec[i][j].str);
       tf_rec[i][j].str = NULL;
     }
-    //free(tf_rec[i]);
-    //tf_rec[i] = NULL;
+
     if (munmap(tf_rec[i], sizeof(my_tf) * HASH_RANGE)) {
         fprintf(err_file, "%s; Failed to unmap\n", strerror(errno));
     }    

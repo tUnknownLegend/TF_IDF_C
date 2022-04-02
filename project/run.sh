@@ -15,8 +15,8 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-valgrind --tool=memcheck --leak-check=yes ./IT1
-#./IT1
+#valgrind --tool=memcheck --leak-check=yes ./IT1
+./IT1
 echo "CC2 finshed"
 #cd ./tests
 #./test_IT1
@@ -25,5 +25,9 @@ echo "CC2 finshed"
 #genhtml -o report coverage.info
 #cd ./report
 #python3 -m http.server 8000
-#cd ../
-#make check
+cd $cur_dir
+cd ../
+make check
+cd $cur_dir
+rm -r ./build
+mkdir build

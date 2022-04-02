@@ -17,11 +17,11 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 	unsigned short all_amt_idf = 0;
 
 	for (int k = 0; k < PID_AMT_HASH; ++k) {
-		//printf("pre fork // %d\n", k);
 		pid[k] = fork();
+
 		if (pid[k] == -1)
 			printf("error, fork // get_idf\n");
-		//printf("fork // %d\n", k);
+		
 		if (pid[k] == 0) {
 
 			for (int i = k * range_multipl; i < (k + 1) * range_multipl; ++i) {
@@ -35,36 +35,23 @@ int get_idf(my_idf* all_idf, int const amt_of_files) {
 
 					if (check_idf) {
 						all_idf[i].idf = log(((double)amt_of_files / (double)all_amt_idf));
-						//  fprintf(out_file, "%f; %d\n", all_idf[i].idf, all_amt_idf);
 					}
 				check_idf = false;
 				all_amt_idf = 0;
 			}
-/*
-			for (int i = k * range_multipl; i < (k + 1) * range_multipl; ++i)
-			{
-				printf("in fork %d // %f\n", k, all_idf[i].idf);
-			}
-*/
+
 			exit(k);
-			//printf("HEYY // %d\n", k);
 		}
 		check_idf = false;
 	}
-	//  fclose(out_file);
+
 	int status = 0;
 	for (int k = 0; k < PID_AMT_HASH; ++k)
 	{
 		waitpid(pid[k], &status, 0);
 		if (!WIFEXITED(status))
 			printf("error, pid // get_idf\n");
-		//printf("exit code: %d // get_idf\n", WIFEXITED(status));
 	}
 
-/*	for (int i = 0; i < (1) * range_multipl; ++i)
-	{
-		printf("out fork %d // %f\n", i, all_idf[i].idf);
-	}
-*/
 	return 1;
 }
