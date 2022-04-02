@@ -54,4 +54,4 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./project/build/coverage.info
+          path-to-lcov: ./iterative/project/build/coverage.info
