@@ -16,11 +16,11 @@ jobs:
         run: |
           cd ./iterative
           bash ./scr/build.sh
-          bash ./scr/val.sh
+          bash ./scr/boot.sh
       - name: boot parallel
         run: |
           cd ./parallel
           bash ./scr/build.sh
-          bash ./scr/val.sh
+          bash ./scr/boot.sh
       - name: compare
         run: bash ./find_diff.sh
