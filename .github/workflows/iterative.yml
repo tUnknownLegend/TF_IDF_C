@@ -20,7 +20,7 @@ jobs:
       run: |
         make check     
 
-  build_val:
+  main:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
