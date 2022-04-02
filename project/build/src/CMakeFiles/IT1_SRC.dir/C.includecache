@@ -17,8 +17,8 @@ stddef.h
 -
 
 /home/aint/park/c1/C2/project/src/calc_hash.c
-../include/calc_hash.h
-/home/aint/park/c1/C2/project/include/calc_hash.h
+../include/def.h
+/home/aint/park/c1/C2/project/include/def.h
 stdio.h
 -
 

@@ -12,3 +12,18 @@ tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o: ../include/get_metr.h
 tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o: ../include/struct.h
 tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o: ../tests/get_metr.cpp
 
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/calc_hash.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/def.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/get_idf.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/get_metr.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/get_tf_idf.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../include/struct.h
+tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o: ../tests/get_tf_idf.cpp
+
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../include/calc_hash.h
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../include/def.h
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../include/get_metr.h
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../include/struct.h
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../include/tf_idf_top_5.h
+tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o: ../tests/tf_idf_top_5.cpp
+

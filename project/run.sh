@@ -15,9 +15,10 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-valgrind --tool=memcheck --leak-check=yes ./IT1 > ../../valgrind_report.txt 2>&1
+valgrind --tool=memcheck --leak-check=yes --error-exitcode=1 ./IT1 > ../../valgrind_report.txt 2>&1
 cd ./tests
-valgrind --tool=memcheck --leak-check=yes ./test_IT1 > ../../../valgrind_report_tests.txt 2>&1
+valgrind --tool=memcheck --leak-check=yes --error-exitcode=1 ./test_IT1 > ../../../valgrind_report_tests.txt 2>&1
+./test_IT1
 cd ..
 lcov -t "tests/test_IT1" -o coverage.info -c -d src/
 genhtml -o report coverage.info

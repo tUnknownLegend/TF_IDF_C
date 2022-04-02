@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aint/park/c1/C2/project/tests/get_idf.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/get_idf.cpp.o"
   "/home/aint/park/c1/C2/project/tests/get_metr.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/get_metr.cpp.o"
+  "/home/aint/park/c1/C2/project/tests/get_tf_idf.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o"
+  "/home/aint/park/c1/C2/project/tests/tf_idf_top_5.cpp" "/home/aint/park/c1/C2/project/build/tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

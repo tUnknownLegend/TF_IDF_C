@@ -3,7 +3,6 @@
 extern "C" {
     #include "struct.h"
     #include "get_idf.h"
-    
     #include "def.h"
     #include <stdbool.h>
     #include <stdio.h>

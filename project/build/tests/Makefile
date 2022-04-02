@@ -179,6 +179,60 @@ get_metr.cpp.s:
 	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_metr.cpp.s
 .PHONY : get_metr.cpp.s
 
+get_tf_idf.o: get_tf_idf.cpp.o
+
+.PHONY : get_tf_idf.o
+
+# target to build an object file
+get_tf_idf.cpp.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.o
+.PHONY : get_tf_idf.cpp.o
+
+get_tf_idf.i: get_tf_idf.cpp.i
+
+.PHONY : get_tf_idf.i
+
+# target to preprocess a source file
+get_tf_idf.cpp.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.i
+.PHONY : get_tf_idf.cpp.i
+
+get_tf_idf.s: get_tf_idf.cpp.s
+
+.PHONY : get_tf_idf.s
+
+# target to generate assembly for a file
+get_tf_idf.cpp.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/get_tf_idf.cpp.s
+.PHONY : get_tf_idf.cpp.s
+
+tf_idf_top_5.o: tf_idf_top_5.cpp.o
+
+.PHONY : tf_idf_top_5.o
+
+# target to build an object file
+tf_idf_top_5.cpp.o:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.o
+.PHONY : tf_idf_top_5.cpp.o
+
+tf_idf_top_5.i: tf_idf_top_5.cpp.i
+
+.PHONY : tf_idf_top_5.i
+
+# target to preprocess a source file
+tf_idf_top_5.cpp.i:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.i
+.PHONY : tf_idf_top_5.cpp.i
+
+tf_idf_top_5.s: tf_idf_top_5.cpp.s
+
+.PHONY : tf_idf_top_5.s
+
+# target to generate assembly for a file
+tf_idf_top_5.cpp.s:
+	cd /home/aint/park/c1/C2/project/build && $(MAKE) -f tests/CMakeFiles/test_IT1.dir/build.make tests/CMakeFiles/test_IT1.dir/tf_idf_top_5.cpp.s
+.PHONY : tf_idf_top_5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +248,12 @@ help:
 	@echo "... get_metr.o"
 	@echo "... get_metr.i"
 	@echo "... get_metr.s"
+	@echo "... get_tf_idf.o"
+	@echo "... get_tf_idf.i"
+	@echo "... get_tf_idf.s"
+	@echo "... tf_idf_top_5.o"
+	@echo "... tf_idf_top_5.i"
+	@echo "... tf_idf_top_5.s"
 .PHONY : help
 
 

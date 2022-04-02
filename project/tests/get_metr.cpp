@@ -44,18 +44,18 @@ TEST(get_metr, 0)
         }
     }
 
-    FILE* input_file = fopen("../../tests/report_0.txt", "r");
-    get_metr(tf_rec[1], all_idf, input_file, 1);
+    FILE* input_file = fopen("../../tests/pg000.txt", "r");
+    get_metr(tf_rec[0], all_idf, input_file, 0);
 
     unsigned char a[] = "file";
-    unsigned char b[] = "anyone";
-    unsigned int curr_hash1 = calc_hash(b);
-    unsigned int curr_hash2 = calc_hash(a);
+    unsigned char b[] = "gutenberg";
+    unsigned int curr_hash1 = calc_hash(a);
+    unsigned int curr_hash2 = calc_hash(b);
 
-    //EXPECT_EQ(tf_rec[1][curr_hash2].tf, 0.018182);
-    //EXPECT_EQ(tf_rec[1][curr_hash1].tf, 0.009091);
-    //EXPECT_EQ(all_idf[curr_hash1].amt[1], true);
-    //EXPECT_EQ(all_idf[curr_hash2].amt[1], true);
+    EXPECT_EQ(abs(tf_rec[0][curr_hash1].tf - 0.0181818) < 0.0000001, true);
+    EXPECT_EQ(abs(tf_rec[0][curr_hash2].tf - 0.0363636) < 0.0000001, true);
+    EXPECT_EQ(all_idf[curr_hash1].amt[1], false);
+    EXPECT_EQ(all_idf[curr_hash2].amt[0], true);
 
     fclose(input_file);
     
