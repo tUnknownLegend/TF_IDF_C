@@ -53,4 +53,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run: |
             cd ./project/build/
-            coveralls ./coverage.info
+            mkdir coverage
+            mv ./coverage.info ./coverage/lcov.info
+            coveralls
