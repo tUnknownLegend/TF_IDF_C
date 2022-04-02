@@ -1,0 +1,26 @@
+on: push
+
+defaults:
+  run:
+    shell: bash
+
+jobs:   
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: installing
+        run: bash ./iterative/scr/init.sh
+      - name: boot iterative
+        run: |
+          cd ./iterative
+          bash ./scr/build.sh
+          bash ./scr/boot.sh
+      - name: boot parallel
+        run: |
+          cd ./parallel
+          bash ./scr/build.sh
+          bash ./scr/boot.sh
+      - name: compare
+        run: bash ./find_diff.sh
