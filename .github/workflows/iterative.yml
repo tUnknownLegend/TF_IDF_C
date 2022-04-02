@@ -47,6 +47,9 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: './project/build/report/index.html'
+      - name: check path to coverage
+        run: |
+          ls ./project/build/
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
