@@ -33,14 +33,3 @@ jobs:
           ls ${{ github.workspace }}
       - name: valgrind
         run: bash ./scr/val.sh
-
-
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: installing
-        run: bash ./scr/init.sh
-      - name: compare
-        run: bash ../find_diff.sh

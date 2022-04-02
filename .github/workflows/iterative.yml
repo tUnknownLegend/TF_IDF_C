@@ -47,14 +47,3 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: './project/build/report/index.html'
-
-
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: installing
-        run: bash ./scr/init.sh
-      - name: compare
-        run: bash ../find_diff.sh

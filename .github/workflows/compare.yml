@@ -23,4 +23,4 @@ jobs:
           bash ./scr/build.sh
           bash ./scr/val.sh
       - name: compare
-        run: bash ../find_diff.sh
+        run: bash ./find_diff.sh
