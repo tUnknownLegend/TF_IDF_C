@@ -47,3 +47,10 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: './project/build/report/index.html'
+      - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd ./project/build/
+          coveralls ./coverage.info
