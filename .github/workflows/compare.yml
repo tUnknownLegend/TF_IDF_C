@@ -14,11 +14,13 @@ jobs:
         run: bash ./iterative/scr/init.sh
       - name: boot iterative
         run: |
-          bash ./iterative/scr/build.sh
-          bash ./iterative/scr/val.sh
+          cd ./iterative
+          bash ./scr/build.sh
+          bash ./scr/val.sh
       - name: boot parallel
         run: |
-          bash ./parallel/scr/build.sh
-          bash ./parallel/scr/val.sh
+          cd ./parallel
+          bash ./scr/build.sh
+          bash ./scr/val.sh
       - name: compare
         run: bash ../find_diff.sh
